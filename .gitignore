@@ -19,3 +19,13 @@
 # System Files
 .DS_Store
 Thumbs.db
+
+# Python 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyBuilder
+.pybuilder/
+
