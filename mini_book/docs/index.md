@@ -2,7 +2,7 @@
 
 ai engineer @ GE Appliances
 
-[ [jmhuer.github.io](http://sdsawtelle.github.io) ] . [ jmhuer@gmail.com ] . [ 9S6 S79 3S7S ] . [ [Download cv ](http://sdsawtelle.github.io) ] 
+[ [github](https://github.com/jmhuer) ] . [ jmhuer@gmail.com ] . [ 9S6 S79 3S7S ] . [ [Download cv ](http://sdsawtelle.github.io) ] 
 
 Featured Projects
 --------
