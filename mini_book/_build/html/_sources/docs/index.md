@@ -4,13 +4,19 @@ ai engineer @ GE Appliances
 
 [ [github](https://github.com/jmhuer) ] . [ jmhuer@gmail.com ] . [ 9S6 S79 3S7S ] . [ [Download cv ](http://sdsawtelle.github.io) ] 
 
-Featured Projects
+Featured Project
 --------
-| Jupyter Notebook | Description |
-| ---      |  ------  |---------:|
-| <img src="https://gistbok.ucgis.org/sites/default/files/styles/blog_image/public/Fig1.jpg?itok=9C9IzLpi" alt="drawing" />   | Artificial Intelligence (A.I.) is a multidisciplinary field whose goal is to automate activities that presently require human intelligence. Recent successes in A.I. include computerized medical diagnosticians and systems that automatically customize hardware to particular user requirements  |
-| <img src="https://gistbok.ucgis.org/sites/default/files/styles/blog_image/public/Fig1.jpg?itok=9C9IzLpi" alt="drawing" />   | Artificial Intelligence (A.I.) is a multidisciplinary field whose goal is to automate activities that presently require human intelligence. Recent successes in A.I. include computerized medical diagnosticians and systems that automatically customize hardware to particular user requirements  |
-| <img src="https://gistbok.ucgis.org/sites/default/files/styles/blog_image/public/Fig1.jpg?itok=9C9IzLpi" alt="drawing" />   | Artificial Intelligence (A.I.) is a multidisciplinary field whose goal is to automate activities that presently require human intelligence. Recent successes in A.I. include computerized medical diagnosticians and systems that automatically customize hardware to particular user requirements  |
+**Generating Music by Continuous Neural Network Prediction**
+
+
+
+  [git repository ](https://github.com/jmhuer) |  [jupyter notebook ](https://github.com/jmhuer) |  [pdf ](https://github.com/jmhuer)
+
+
+ <img src="https://imada.sdu.dk/~marco/Teaching/AY2012-2013/DM825/animation.gif" alt="drawing" text-align= "center" width="500"><img/>
+
+Posted October 2020
+
 
 Education
 ---------
