@@ -8,20 +8,20 @@ This is my personal website, I post recent work related to math, science, and mu
 
 ## Feauture Projects
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrayshttp**
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 
 [ [blog post ](https://github.com/jmhuer) ] [ [git rep](https://github.com/jmhuer) ] [ [pdf ](https://github.com/jmhuer) ]
 
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrayshttp**
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 
 [ [blog post ](https://github.com/jmhuer) ] [ [git rep](https://github.com/jmhuer) ] [ [pdf ](https://github.com/jmhuer) ]
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrayshttp**
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 
