@@ -60,6 +60,9 @@
 # :titlesonly:
 # 
 # 
-# semidefinite_programming
+# expectation_maximization
+# graphical_models
 # markov_random
+# semidefinite_programming
+# deep_learning
 # ```

@@ -9,8 +9,8 @@ kernelspec:
   name: python3
 ---
 
-# Markov Random Field
+# Statistics
 
 ## Overview
 
-Under development
+under development

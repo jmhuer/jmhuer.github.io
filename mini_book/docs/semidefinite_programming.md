@@ -11,7 +11,7 @@ kernelspec:
 
 (python_by_example)=
 
-# Semidefinite Programming
+# Convex Optimization
  <sub> [Convex Optimization](https://github.com/jmhuer), [Linear Programming](https://github.com/jmhuer),  [General Programming](https://github.com/jmhuer)</sub>
 
  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
