@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Juan Huerta &#8212; Juan</title>
+    <title>Semidefinite Programming &#8212; Juan</title>
     
   <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -56,7 +56,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Research" href="about_py.html" />
+    <link rel="next" title="Expectation Maximization" href="expectation_maximization.html" />
+    <link rel="prev" title="Blog" href="getting_started.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -89,16 +90,57 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <ul class="nav sidenav_l1">
+  <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="about_py.html">
    Research
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active">
   <a class="reference internal" href="getting_started.html">
    Blog
   </a>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Semidefinite Programming
+    </a>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="expectation_maximization.html">
+       Expectation Maximization
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="graphical_models.html">
+       Graphical Models
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="expectation_maximization.html">
+       Expectation Maximization
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="clustering_algorithms.html">
+       Clustering Algorithms
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="markov_random.html">
+     Markov Random Field
+    </a>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="deep_learning.html">
+       Deep learning
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="python_by_example.html">
@@ -150,9 +192,12 @@
     
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="../_sources/docs/semidefinite_programming.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/docs/index.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/docs/semidefinite_programming.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -172,6 +217,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/mini_book/docs/semidefinite_programming.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -183,8 +245,23 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#feauture-posts">
-   Feauture Posts
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#formal-defenition">
+   Formal Defenition
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#linear-programming-and-sdp">
+   Linear Programming and SDP
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#numerical-example">
+   Numerical Example
   </a>
  </li>
 </ul>
@@ -198,37 +275,75 @@
         
               <div>
                 
-  <div class="section" id="juan-huerta">
-<h1>Juan Huerta<a class="headerlink" href="#juan-huerta" title="Permalink to this headline">¶</a></h1>
-<p><code class="docutils literal notranslate"><span class="pre">ai</span> <span class="pre">engineer</span> <span class="pre">&#64;</span> <span class="pre">ge</span> <span class="pre">appliances</span></code>
-<br>
-<br>
-This is my personal website, I post recent work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
-<br>
-<br></p>
-<div class="section" id="feauture-posts">
-<h2>Feauture Posts<a class="headerlink" href="#feauture-posts" title="Permalink to this headline">¶</a></h2>
-<p>👀 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
+  <div class="section" id="semidefinite-programming">
+<span id="python-by-example"></span><h1>Semidefinite Programming<a class="headerlink" href="#semidefinite-programming" title="Permalink to this headline">¶</a></h1>
+<p><sub> <a class="reference external" href="https://github.com/jmhuer">Convex Optimization</a>, <a class="reference external" href="https://github.com/jmhuer">Linear Programming</a>,  <a class="reference external" href="https://github.com/jmhuer">General Programming</a></sub></p>
+<p><strong>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch</strong></p>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
+<p>There are many applications such as:</p>
 <ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.</p></li>
+<li><p>Machine learning and data science</p></li>
+<li><p>Astronomy</p></li>
+<li><p>Artificial intelligence</p></li>
+<li><p>Chemistry</p></li>
+<li><p>Computational biology</p></li>
 </ul>
-<p>📷 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
-<ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
-<br></p></li>
-</ul>
-<p>📲 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
-<ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-of topics and tools related to pure Python programming, data science and statistics.</p></li>
-</ul>
+</div>
+<div class="section" id="formal-defenition">
+<h2>Formal Defenition<a class="headerlink" href="#formal-defenition" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><strong>Semidefinite Programming (SDP)</strong> has the form</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{ll}
+\operatorname{minimize} &amp; C \bullet X \\
+\text { s.t. } &amp; A_{i} \bullet X=b_{i} \quad i=1, \ldots, m \\
+&amp; X \succeq 0
+\end{array}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[C \bullet X:=\sum_{i=1}^{n} \sum_{j=1}^{n} C_{i j} X_{i j}\]</div>
+</div></blockquote>
+</div>
+<div class="section" id="linear-programming-and-sdp">
+<h2>Linear Programming and SDP<a class="headerlink" href="#linear-programming-and-sdp" title="Permalink to this headline">¶</a></h2>
+<p>A linear program LP is a special instance of an SDP.
+This means the LP can be written as an SDP</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+&amp;\operatorname{minimize} \quad C \bullet X\\
+&amp;\begin{array}{ll}
+\text { s.t. } &amp; A_{i} \bullet X=b_{i}\quad i=1, \ldots, m \\
+&amp; X_{i j}=0 \quad i=1, \ldots, n   \quad j=i+1, \ldots, n \\
+&amp; X \succeq 0
+\end{array}
+\end{aligned}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}C=\left(\begin{array}{cccc}
+c_{1} &amp; 0 &amp; \ldots &amp; 0 \\
+0 &amp; c_{2} &amp; \ldots &amp; 0 \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+0 &amp; 0 &amp; \ldots &amp; c_{n}
+\end{array}\right)
+\quad
+X=\left(\begin{array}{cccc}
+x_{1} &amp; 0 &amp; \ldots &amp; 0 \\
+0 &amp; x_{2} &amp; \ldots &amp; 0 \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+0 &amp; 0 &amp; \ldots &amp; x_{n}
+\end{array}\right)\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+A_{i}=\left(\begin{array}{cccc}
+a_{i 1} &amp; 0 &amp; \ldots &amp; 0 \\
+0 &amp; a_{i 2} &amp; \ldots &amp; 0 \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+0 &amp; 0 &amp; \ldots &amp; a_{i n}
+\end{array}\right) \quad   i=1, \ldots, m
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="numerical-example">
+<h2>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -262,7 +377,8 @@ of topics and tools related to pure Python programming, data science and statist
     
     <div class='prev-next-bottom'>
         
-    <a class='right-next' id="next-link" href="about_py.html" title="next page">Research</a>
+    <a class='left-prev' id="prev-link" href="getting_started.html" title="previous page">Blog</a>
+    <a class='right-next' id="next-link" href="expectation_maximization.html" title="next page">Expectation Maximization</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

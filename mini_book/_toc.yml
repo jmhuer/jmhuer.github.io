@@ -3,5 +3,16 @@
   sections:
     - file: docs/about_py
     - file: docs/getting_started
+      sections:
+          - file: docs/semidefinite_programming
+            sections:
+                - file: docs/expectation_maximization
+                - file: docs/graphical_models
+                - file: docs/expectation_maximization
+                - file: docs/clustering_algorithms
+                  expand_sections: false
+          - file: docs/markov_random
+            sections:
+                - file: docs/deep_learning
     - file: docs/python_by_example
     - file: docs/learn_more

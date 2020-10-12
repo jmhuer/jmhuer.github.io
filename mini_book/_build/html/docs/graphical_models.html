@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Juan Huerta &#8212; Juan</title>
+    <title>Graphical Models &#8212; Juan</title>
     
   <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -56,7 +56,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Research" href="about_py.html" />
+    <link rel="next" title="Clustering Algorithms" href="clustering_algorithms.html" />
+    <link rel="prev" title="Expectation Maximization" href="expectation_maximization.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -89,16 +90,57 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <ul class="nav sidenav_l1">
+  <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="about_py.html">
    Research
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active">
   <a class="reference internal" href="getting_started.html">
    Blog
   </a>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="reference internal" href="semidefinite_programming.html">
+     Semidefinite Programming
+    </a>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="expectation_maximization.html">
+       Expectation Maximization
+      </a>
+     </li>
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       Graphical Models
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="expectation_maximization.html">
+       Expectation Maximization
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="clustering_algorithms.html">
+       Clustering Algorithms
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="markov_random.html">
+     Markov Random Field
+    </a>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="deep_learning.html">
+       Deep learning
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="python_by_example.html">
@@ -150,9 +192,12 @@
     
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="../_sources/docs/graphical_models.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/docs/index.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/docs/graphical_models.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -172,6 +217,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/mini_book/docs/graphical_models.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -183,8 +245,8 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#feauture-posts">
-   Feauture Posts
+  <a class="reference internal nav-link" href="#overview">
+   Overview
   </a>
  </li>
 </ul>
@@ -198,39 +260,11 @@
         
               <div>
                 
-  <div class="section" id="juan-huerta">
-<h1>Juan Huerta<a class="headerlink" href="#juan-huerta" title="Permalink to this headline">¶</a></h1>
-<p><code class="docutils literal notranslate"><span class="pre">ai</span> <span class="pre">engineer</span> <span class="pre">&#64;</span> <span class="pre">ge</span> <span class="pre">appliances</span></code>
-<br>
-<br>
-This is my personal website, I post recent work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
-<br>
-<br></p>
-<div class="section" id="feauture-posts">
-<h2>Feauture Posts<a class="headerlink" href="#feauture-posts" title="Permalink to this headline">¶</a></h2>
-<p>👀 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
-<ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.</p></li>
-</ul>
-<p>📷 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
-<ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
-<br></p></li>
-</ul>
-<p>📲 <strong><a class="reference external" href="http://sdsawtelle.github.io/blog/output/index.html"><em>Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays</em></a></strong>
-<br>
-<em>Posted May 2020</em></p>
-<ul class="simple">
-<li><p>Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-of topics and tools related to pure Python programming, data science and statistics.</p></li>
-</ul>
-<div class="toctree-wrapper compound">
-</div>
+  <div class="section" id="graphical-models">
+<h1>Graphical Models<a class="headerlink" href="#graphical-models" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Under development</p>
 </div>
 </div>
 
@@ -262,7 +296,8 @@ of topics and tools related to pure Python programming, data science and statist
     
     <div class='prev-next-bottom'>
         
-    <a class='right-next' id="next-link" href="about_py.html" title="next page">Research</a>
+    <a class='left-prev' id="prev-link" href="expectation_maximization.html" title="previous page">Expectation Maximization</a>
+    <a class='right-next' id="next-link" href="clustering_algorithms.html" title="next page">Clustering Algorithms</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
