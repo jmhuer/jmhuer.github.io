@@ -11,7 +11,7 @@ kernelspec:
 
 (getting_started)=
 
-# Blog
+# Notes
 
 ## Topics
 
@@ -24,7 +24,7 @@ kernelspec:
 
 ## Blog timeline
 
-🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/clustering_algorithms.html)**
 <br>
 *Posted May 2020*
 

@@ -3,7 +3,7 @@
 
 # (getting_started)=
 # 
-# # Blog
+# # Notes
 # 
 # ## Topics
 # 
@@ -16,7 +16,7 @@
 # 
 # ## Blog timeline
 # 
-# 🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+# 🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/clustering_algorithms.html)**
 # <br>
 # *Posted May 2020*
 # 
@@ -52,17 +52,3 @@
 # *Posted May 2020*
 # 
 # - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-# 
-# 
-# 
-# ```{toctree}
-# :hidden:
-# :titlesonly:
-# 
-# 
-# expectation_maximization
-# graphical_models
-# markov_random
-# semidefinite_programming
-# deep_learning
-# ```

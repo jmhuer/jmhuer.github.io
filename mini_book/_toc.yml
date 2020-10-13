@@ -2,14 +2,8 @@
 - file: docs/index
   sections:
     - file: docs/about_py
-    - file: docs/getting_started
-      sections:
-        - file: docs/expectation_maximization
-        - file: docs/graphical_models
-        - file: docs/markov_random
-        - file: docs/semidefinite_programming
-        - file: docs/deep_learning
     - file: docs/python_by_example
     - file: docs/learn_more
+    - file: docs/getting_started
 
 
