@@ -4,6 +4,6 @@
     - file: docs/about_py
     - file: docs/python_by_example
     - file: docs/learn_more
-    - file: docs/getting_started
-
+    - url: https://jmhuer.github.io/data-science-blog/
+      title: "📘 Data Science Blog"
 
