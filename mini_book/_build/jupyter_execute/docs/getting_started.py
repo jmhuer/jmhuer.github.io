@@ -3,7 +3,7 @@
 
 # (getting_started)=
 # 
-# # Blog
+# # Resume
 # 
 # ## Topics
 # 
