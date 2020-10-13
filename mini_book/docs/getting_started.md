@@ -11,7 +11,7 @@ kernelspec:
 
 (getting_started)=
 
-# Notes
+# Blog
 
 ## Topics
 
