@@ -77,7 +77,7 @@ Awarded Patents
 
 **System and Method for Using Sound to Monitor the Operation of a Dryer Appliance**(2019)
 
-- involving embedded systems, small appliances, mobile applications, and IoT solutions.
+- involving embedded systems, small appliances, mobile applications, and IoT solutions
 
 Skills
 ------

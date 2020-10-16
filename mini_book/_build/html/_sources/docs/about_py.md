@@ -69,4 +69,4 @@ kernelspec:
 <br>
 *Posted May 2020*
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics
