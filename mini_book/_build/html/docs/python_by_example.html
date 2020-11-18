@@ -45,6 +45,8 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -204,8 +206,8 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#overview">
-   Overview
+  <a class="reference internal nav-link" href="#problem-1">
+   Problem 1
   </a>
  </li>
 </ul>
@@ -221,9 +223,24 @@
                 
   <div class="section" id="music">
 <h1>Music<a class="headerlink" href="#music" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<p>Under development ….</p>
+<div class="section" id="problem-1">
+<h2>Problem 1<a class="headerlink" href="#problem-1" title="Permalink to this headline">¶</a></h2>
+<p>Compute the eigenvalues and eigenvectors of the matrix</p>
+<p><span class="math notranslate nohighlight">\(
+A_1 = \left[ \begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 2 \end{array} \right]
+\)</span></p>
+<p>and show that the eigenvectors are orthogonal to each other.
+Compute the eigenvalues and eigenvectors of the matrix</p>
+<p><span class="math notranslate nohighlight">\(
+A_2 = \left[ \begin{array}{cc} 1 &amp; 1 \\ 0 &amp; 2 \end{array} \right]
+\)</span></p>
+<p>and show that the eigenvectors are not orthogonal to each other.</p>
+<p>Compute the eigenvalues and eigenvectors of the matrix</p>
+<p><span class="math notranslate nohighlight">\(
+A_3 = \left[ \begin{array}{cccc} 4 &amp; 11 &amp; 11 &amp; 12 \\ 11 &amp; 13 &amp; 14 &amp; 10 \\ 11 &amp; 14 &amp; 16 &amp; 16 \\ 12 &amp; 12 &amp; 16 &amp; 18 \end{array} \right].
+\)</span></p>
+<p>Is this matrix positive semidefinite? Are the eigenvectors orthogonal to each other?</p>
+<p>Repeat this with random matrices of your choosing. Note that symmetric matrices, whether positive definite or note (i.e., whether or not they have nonnegative eigenvalues) will always have eigenvectors that are perpendicular (orthogonal) to each other.</p>
 </div>
 </div>
 
