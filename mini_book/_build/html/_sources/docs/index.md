@@ -7,7 +7,7 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 <br>
 
-[ [github](http://sdsawtelle.github.io) ] . [ jmhuer@gmail.com ] . [ 9S6 S79 3S7S ] . [ [resume pdf ](http://sdsawtelle.github.io) ]
+[ [GitHub](https://github.com/jmhuer) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ] . [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/latex-resume/juan-resume/resume.pdf) ]
 
 
 ## Recent Posts
