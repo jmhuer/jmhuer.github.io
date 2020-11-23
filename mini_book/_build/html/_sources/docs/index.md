@@ -7,7 +7,7 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 <br>
 
-[ [GitHub](https://github.com/jmhuer) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ] . [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/latex-resume/juan-resume/resume.pdf) ]
+[ [GitHub](https://github.com/jmhuer) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ] . [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf) ]
 
 
 ## Recent Posts
