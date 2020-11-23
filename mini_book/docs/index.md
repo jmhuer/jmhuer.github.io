@@ -7,7 +7,7 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 <br>
 
-[ [GitHub](https://github.com/jmhuer) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ] . [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf) ]
+[ [GitHub](https://github.com/jmhuer) ] . [ [LinkedIn ](https://www.linkedin.com/in/juan-huerta-043744129/) ] . [ [Twitter](https://twitter.com/JuanHue19563224) ]. [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ]
 
 
 ## Recent Posts
@@ -28,7 +28,7 @@ AI engineer
 *Posted May 2020*
 <br>
 
- [📚 More Posts . . . ](http://sdsawtelle.github.io/blog/output/index.html)
+ [📚 More Posts . . . ](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)
 
 
 

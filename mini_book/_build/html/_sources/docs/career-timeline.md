@@ -9,6 +9,8 @@ kernelspec:
   name: python3
 ---
 
-# Music Performace & Composition
-## 5edex Sucks
-Under development...
+# Career Timeline
+
+## Overview
+
+Under development ..
