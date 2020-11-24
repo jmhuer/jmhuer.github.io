@@ -1,0 +1,38 @@
+@import url(antd/dist/antd.css);
+html, body {
+  margin: 0;
+}
+
+#container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.player {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.player .ant-btn,
+.player .ant-progress {
+  margin-right: 8px;
+}
+.player .ant-progress-show-info .ant-progress-outer {
+  margin-right: calc(-7em - 8px);
+  padding-right: calc(7em + 8px);
+}
+.player .ant-progress-text {
+  width: 7em;
+}
+.player__controls {
+  display: flex;
+}
+.player__sound {
+  display: flex;
+  flex-basis: 150px;
+  align-items: center;
+}
+.player__sound .ant-slider {
+  width: 100%;
+  margin: 0 8px 0 8px;
+}
