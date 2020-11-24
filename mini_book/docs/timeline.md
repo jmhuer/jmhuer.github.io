@@ -11,44 +11,44 @@ kernelspec:
 
 # Timeline
 
-## 2021
+## **2020**
 ### 🍁  March
 ---
-**[*Seminal Seminal of the siemic apart the things*](http://sdsawtelle.github.io/blog/output/index.html)**
-
-Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+`📤  Patent submitted` <br />
+**User embeddings of appliance usage data to analyze & predict appliance failure and user behavior**<br />
+* Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 <br>
 <br>
 
 ---
-
 ### 🌞  June
 ---
-**[*Seminal Seminal of the siemic apart the things*](http://sdsawtelle.github.io/blog/output/index.html)**
-
-Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+`👨🏾‍💻 Started new position at GE appliances` <br />
+**Artificial Intellifence Engineer**<br />
+* Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 <br>
 <br>
 
 ---
 
-## 2020
-### 🌨  Febuary
+## **2019**
+### 🌞  June
 ---
-**[*Seminal Seminal of the siemic apart the things*](http://sdsawtelle.github.io/blog/output/index.html)**
-
-Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+`👨🏾‍💻 Started new position at GE appliances` <br />
+**Artificial Intellifence Engineer**<br />
+* Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 <br>
 <br>
 
 ---
 
-### 🕶  August
+### 🌦  March
 ---
-**[*Seminal Seminal of the siemic apart the things*](http://sdsawtelle.github.io/blog/output/index.html)**
+`📱 Started new position (contrator role) at Modis` <br />
+**Software Engineer/ Machine learning**<br />
+* Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+<br>
+<br>
 
-Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
-<br>
 
 ---
