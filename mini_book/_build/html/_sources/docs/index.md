@@ -12,18 +12,18 @@ This is my personal website, I share work related to math, science, and music. M
 
 ## Recent Posts
 
-👀 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+👀 **[*Mini RetinaNet Pytorch Implementation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
 <br>
 *Posted May 2020*
 
 
-📲 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+🎶 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
 <br>
 *Posted May 2020*
 
-👨🏾‍💻 **[*Started new position at GE appliances*](http://sdsawtelle.github.io/blog/output/index.html)**
+👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id3)**
 <br>
-AI engineer
+Artificial Intelligence Engineer
 <br>
 *Posted May 2020*
 <br>
