@@ -1,5 +1,8 @@
 # Juan Huerta 
 
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 `ai engineer @ ge appliances`
 <br>
 <br>
@@ -7,10 +10,11 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 <br>
 
-[ [GitHub](https://github.com/jmhuer) ] . [ [LinkedIn ](https://www.linkedin.com/in/juan-huerta-043744129/) ] . [ [Twitter](https://twitter.com/JuanHue19563224) ]. [ [Resume PDF ](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf) ] . [ [jmhuer@gmail.com](mailto:jmhuer@gmail.com) ]
+<a href="https://twitter.com/JuanHue19563224?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @JuanHue19563224</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="github-button" href="https://github.com/jmhuer">Follow @jmhuer</a>
+<a class="github-button" href="https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf" data-icon="octicon-download" aria-label="Download ntkme/github-buttons on GitHub">Download CV</a>
 
-
-## Recent Posts
+## Recent Activity
 
 👀 **[*Mini RetinaNet Pytorch Implementation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
 <br>
