@@ -2,7 +2,7 @@
 - file: docs/index
   sections:
     - file: docs/research
-    - file: docs/career-news
+    - file: docs/timeline
     - file: docs/music
     - url: https://jmhuer.github.io/data-science-blog/
       title: "Data Science Blog"
