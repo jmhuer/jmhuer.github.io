@@ -10,9 +10,9 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 <br>
 
-<a href="https://twitter.com/JuanHue19563224?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @JuanHue19563224</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="github-button" href="https://github.com/jmhuer">Follow @jmhuer</a>
 <a class="github-button" href="https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf" data-icon="octicon-download" aria-label="Download ntkme/github-buttons on GitHub">Download CV</a>
+<a href="https://twitter.com/JuanHue19563224?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @JuanHue19563224</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Recent Activity
 
