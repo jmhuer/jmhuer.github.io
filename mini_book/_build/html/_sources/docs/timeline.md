@@ -12,7 +12,6 @@ kernelspec:
 # Timeline
 
 ## **2020**
----
 ### ❄️ January
 ---
 `🤘 Started new part time masters in CS ` <br />

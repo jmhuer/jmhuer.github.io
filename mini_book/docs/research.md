@@ -21,6 +21,9 @@ Your browser does not support the audio element.
 <br>
 <br>
 
+--------------------------------
+
+
 **[*REU: Angle Control and Electronic Transport Properties of Twisted Bilayer Graphene*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
 [Columbia University, MRSC](https://github.com/jmhuer) ; Research Advisor  [Hod Lipson](https://github.com/jmhuer)
@@ -30,6 +33,8 @@ Your browser does not support the audio element.
 - Project supervised by Professor Cory Dean as part of the Material Research Science and Engi- neering Center. Contributed to the development of a technique to precisely control the relative angle of two single layer graphene stacked on h-BN.
 <br>
 <br>
+
+--------------------------------
 
 
 
@@ -43,6 +48,7 @@ Your browser does not support the audio element.
 <br>
 <br>
 
+--------------------------------
 
 
 ## Active Projects
