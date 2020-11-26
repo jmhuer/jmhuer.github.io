@@ -1,7 +1,9 @@
 
 # Research
 
-## Research Experience 
+## Research Experience
+
+--------------------------------
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
@@ -50,6 +52,8 @@ Your browser does not support the audio element.
 
 --------------------------------
 
+<br>
+<br>
 
 ## Active Projects
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
