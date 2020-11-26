@@ -15,21 +15,22 @@
 *Based of of Grahms Piano Suite*
 
 <audio controls>
-  <source src="b2m.wav" type="audio/wav">
+  <source src="B2M.m4a" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <br>
 <br>
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**[*REU: Angle Control and Electronic Transport Properties of Twisted Bilayer Graphene*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
-[Columbia University, Creative Machines Lab](https://github.com/jmhuer) ; Research Advisor  [Hod Lipson](https://github.com/jmhuer)
+[Columbia University, MRSC](https://github.com/jmhuer) ; Research Advisor  [Hod Lipson](https://github.com/jmhuer)
 <br>
 *May 2019 -- May 2020*
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+- Project supervised by Professor Cory Dean as part of the Material Research Science and Engi- neering Center. Contributed to the development of a technique to precisely control the relative angle of two single layer graphene stacked on h-BN.
 <br>
 <br>
+
 
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**

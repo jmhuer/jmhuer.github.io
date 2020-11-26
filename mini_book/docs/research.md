@@ -15,7 +15,7 @@
 *Based of of Grahms Piano Suite*
 
 <audio controls>
-  <source src="b2m.wav" type="audio/wav">
+  <source src="B2M.m4a" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <br>
