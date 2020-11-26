@@ -14,10 +14,10 @@
 **Example Piano Composition**  
 *Based of of Grahms Piano Suite*
 
-<audio controls preload="metadata" style=" width:300px;">
-	<source src="https://github.com/jmhuer/jmhuer.github.io/blob/master/b2m.wav" type="audio/wav">
-	Your browser does not support the audio element.
-</audio><br />
+<audio controls>
+  <source src="https://github.com/jmhuer/jmhuer.github.io/blob/master/b2m.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
 <br>
 <br>
 
