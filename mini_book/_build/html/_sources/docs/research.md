@@ -1,13 +1,3 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
 
 # Research
 
@@ -19,7 +9,15 @@ kernelspec:
 <br>
 *May 2019 -- May 2020*
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+- This project uses existing piano MIDI to train a Neural Network similar to The Continuous Bag of Words Model combined with a predictive scheme to generate new music, or complete an unfinished piece.
+
+**Example Piano Composition**  
+*Based of of Grahms Piano Suite*
+
+<audio controls preload="metadata" style=" width:300px;">
+	<source src="Downloads.wav" type="audio/wav">
+	Your browser does not support the audio element.
+</audio><br />
 <br>
 <br>
 
