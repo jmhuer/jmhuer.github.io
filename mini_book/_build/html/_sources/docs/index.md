@@ -29,7 +29,7 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 *Posted May 2020*
 
-👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id3)**
+👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id2)**
 <br>
 Artificial Intelligence Engineer
 <br>
