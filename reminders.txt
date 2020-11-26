@@ -1,0 +1,2 @@
+
+#rember jupyter-book build ./mini_book to build book
