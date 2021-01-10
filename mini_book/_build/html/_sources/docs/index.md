@@ -6,13 +6,14 @@
 `ai engineer @ ge appliances`
 <br>
 <br>
-This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
-<br>
-<br>
 [<img src="images/email.png" height="20" align="left"/>](https://jmhuer.github.io/mini_book/_build/html/docs/independent/emailme.html)
 [<img src="images/twitter.png" height="20" align="left"/>](https://twitter.com/JuanHue19563224)
 [<img src="images/git.png" height="20" align="left"/>](https://github.com/jmhuer)
 [<img src="images/cv.png" height="20" align="left"/>](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf)
+<br>
+<br>
+This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
+<br>
 
 ## Recent Activity
 
