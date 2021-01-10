@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Music
+# # Random
 # Here I keep my few music projects collected throught the years. If you are intrested in music made with artificial intelligence see [Generative Models](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/generative-models/index.html)
 # </br>
 # 

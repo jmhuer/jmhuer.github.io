@@ -9,10 +9,9 @@
 This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
 <br>
 <br>
-
-<a href="https://twitter.com/JuanHue19563224?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @JuanHue19563224</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="github-button" href="https://github.com/jmhuer">Follow @jmhuer</a>
-<a class="github-button" href="https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf" data-icon="octicon-download" aria-label="Download ntkme/github-buttons on GitHub">Download CV</a>
+[<img src="twi.png" height="25" align="left"/>](https://github.com)
+[<img src="follow.png" height="25" align="left"/>](https://google.com)
+[<img src="down.png" height="25" align="left"/>](https://github.com)
 
 ## Recent Activity
 
@@ -93,5 +92,4 @@ Artificial Intelligence Engineer
 <!--- **Sterling Prize Fellowship**, Yale University (2013). Awarded to 30 out of 10,500 applicants.-->
 <!--- **IU Founders Scholar**, Indiana University (2012)-->
 <!--- **Baccalaureate with Highest Distinction**, Indiana University (2012). Granted to 5 students out of 498 in the class.-->
-
 

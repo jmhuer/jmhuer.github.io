@@ -1,9 +1,11 @@
 # - file: README
 - file: docs/index
   sections:
+    - url: https://jmhuer.github.io/
+      title: "Home"
     - file: docs/research
-    - file: docs/timeline
+    - file: docs/portfolio
     - file: docs/music
     - url: https://jmhuer.github.io/blog/
-      title: "Data Science Blog"
+      title: "Notes"
 
