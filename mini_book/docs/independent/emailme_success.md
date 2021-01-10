@@ -8,7 +8,7 @@ Name:<br>
 <textarea rows="1" cols="25" type="text" name="name"></textarea><br>
 <br>
 Comment:<br>
-<textarea rows="4" cols="50" placeholder="Type here" type="text" name="comment"></textarea><br>
+<textarea rows="4" cols="50" placeholder="" type="text" name="comment"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
 </form>
