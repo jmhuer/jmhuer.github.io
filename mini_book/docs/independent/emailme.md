@@ -10,7 +10,7 @@ Name:<br>
 <textarea rows="1" cols="20" type="text" name="name"></textarea><br>
 <br>
 Comment:<br>
-<textarea rows="6" style="width:25em" placeholder="" type="text" name="comment"></textarea><br>
+<textarea rows="6" style="width:22em" placeholder="" type="text" name="comment"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
 </form>
