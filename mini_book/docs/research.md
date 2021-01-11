@@ -1,7 +1,70 @@
-
 # About me
 
+<!-- Place this tag in your head or just before your close body tag. -->
+
+### Education
+---
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/austin.png" height="50px" border="1px"></p>
+</div>
+
+**[*University of Texas at Austin*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **M.S in Computer Science**
+<br>
+*May 2019 -- May 2020*
+
+
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/columbia.png" height="50px" border="1px"></p>
+</div>
+
+
+**[*Columbia University*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **B.S in Applied Mathematics**
+<br>
+*May 2019 -- May 2020*
+
+
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/lawrence.png" height="50px" border="1px"></p>
+</div>
+
+**[*St. Lawrence University*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **B.S in Physics & Music (Double Major)**
+<br>
+*May 2019 -- May 2020*
+
+
+
+
+## Work Experience
+---
+
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/Rj7iKklK_400x400.jpg" height="50px" border="1px"></p>
+</div>
+
+**[*GE Appliances, a Haier Company*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **Artificial Intelligence Engineer**
+<br>
+*May 2019 -- May 2020*
+
+
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/fd.jpg" height="50px" border="1px"></p>
+</div>
+
+**[*Modis*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **Software Egineer / Machine Learning**
+<br>
+*May 2019 -- May 2020*
+
+<div style="clear: left;">
+    <p style="float: left; padding-right: 10px;"><img src="images/0.jpeg" height="50px" border="1px"></p>
+</div>
+
+**[*Applied Underwritters*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **Technical Analysit**
+<br>
+*May 2019 -- May 2020*
+
+
 ## Research Experience
+---
 
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
@@ -22,7 +85,7 @@ Your browser does not support the audio element.
 <br>
 <br>
 
---------------------------------
+---
 
 
 **[*REU: Angle Control and Electronic Transport Properties of Twisted Bilayer Graphene*](http://sdsawtelle.github.io/blog/output/index.html)**
@@ -35,7 +98,7 @@ Your browser does not support the audio element.
 <br>
 <br>
 
---------------------------------
+---
 
 
 
@@ -47,13 +110,19 @@ Your browser does not support the audio element.
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
+## Patents
+---
+
+[Columbia University, Creative Machines Lab](https://github.com/jmhuer) ; Research Advisor  [Hod Lipson](https://github.com/jmhuer)
+<br>
+*May 2019 -- May 2020*
+
+
+<br>
+<br>
+<br>
+<br>
 
 > \"Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough"  -- Richard P. Feynman
-
