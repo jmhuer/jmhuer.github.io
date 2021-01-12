@@ -19,12 +19,11 @@ Another alias I make music under. This project is based on a dream I had regardi
 ## Algorithmic Music
 ---
 
-This piece was generated using simple instructions requiring any text:
-
-- Any letter that is a note play
-- Length of note is determined by counting non-note letter after a note letter
-- Two note letters next to each other make the note sharp
-- Add and play with instrumentation until it sounds good 🙂
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 ▶️ **The secret Messege** - Juan Huerta
 
