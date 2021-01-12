@@ -13,8 +13,6 @@ Another alias I make music under. This project is based on a dream I had regardi
 
 ▶️ **Dreaming** - 5edex Sucks
 
-<br>
-
 
 ## Algorithmic Music
 ---
@@ -27,7 +25,6 @@ function test() {
 
 ▶️ **The secret Messege** - Juan Huerta
 
-<br>
 
 ## Ai Music
 ---
@@ -36,7 +33,6 @@ Based on NLP Research - **[*Generating Music by Continuous Neural Network Predic
 
 ▶️ **What an unusual view** - Juan Huerta
 
-<br>
 
 ## Other
 ---

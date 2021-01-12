@@ -34,8 +34,6 @@
 *May 2019 -- May 2020*
 
 
-<br>
-
 
 ## Work Experience
 ---
@@ -69,7 +67,6 @@
 <br>
 *May 2019 -- May 2020*
 
-<br>
 
 ## Research Experience
 ---
@@ -100,11 +97,8 @@
 *May 2019 -- May 2020*
 
 - Project supervised by Professor Cory Dean as part of the Material Research Science and Engi- neering Center. Contributed to the development of a technique to precisely control the relative angle of two single layer graphene stacked on h-BN.
-<br>
-<br>
 
 ---
-
 
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
@@ -114,8 +108,6 @@
 *May 2019 -- May 2020*
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-
-<br>
 
 
 ## Patents
@@ -134,10 +126,7 @@
 *Posted May 2020*
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+
 <br>
-<br>
-
-
-
 <br>
 <br>
