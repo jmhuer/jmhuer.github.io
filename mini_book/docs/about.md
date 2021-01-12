@@ -12,6 +12,7 @@
 <br>
 *May 2019 -- May 2020*
 
+<br>
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/columbia.png" height="50px" border="1px"></p>
@@ -22,6 +23,7 @@
 <br>
 *May 2019 -- May 2020*
 
+<br>
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/lawrence.png" height="50px" border="1px"></p>
@@ -46,6 +48,8 @@
 <br>
 *May 2019 -- May 2020*
 
+<br>
+
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/fd.jpg" height="50px" border="1px"></p>
@@ -54,6 +58,8 @@
 **[*Modis*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** - **Software Egineer / Machine Learning**
 <br>
 *May 2019 -- May 2020*
+
+<br>
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/0.jpeg" height="50px" border="1px"></p>
@@ -118,14 +124,23 @@ Your browser does not support the audio element.
 ## Patents
 ---
 
-[Columbia University, Creative Machines Lab](https://github.com/jmhuer) ; Research Advisor  [Hod Lipson](https://github.com/jmhuer)
+**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
-*May 2019 -- May 2020*
+*Posted May 2020*
 
-
-<br>
-<br>
+- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 <br>
 <br>
 
-> \"Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough"  -- Richard P. Feynman
+**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+<br>
+*Posted May 2020*
+
+- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+<br>
+<br>
+
+
+
+<br>
+<br>
