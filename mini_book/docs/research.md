@@ -32,6 +32,7 @@
 *May 2019 -- May 2020*
 
 
+<br>
 
 
 ## Work Experience
@@ -62,6 +63,7 @@
 <br>
 *May 2019 -- May 2020*
 
+<br>
 
 ## Research Experience
 ---
@@ -110,6 +112,7 @@ Your browser does not support the audio element.
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
 
+<br>
 
 
 ## Patents
