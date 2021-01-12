@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Computer vision
-#  <sub> [Convex Optimization](https://github.com/jmhuer), [Linear Programming](https://github.com/jmhuer),  [General Programming](https://github.com/jmhuer)</sub>
+# # 🎶 Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays
+#  <sub> [← Back to Porfolio](https://github.com/jmhuer)</sub>
 # 
 #  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 # 
-# 
 # ## Introduction
+# ---
 # 
 # An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
 # 

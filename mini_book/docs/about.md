@@ -83,15 +83,13 @@
 
 - This project uses existing piano MIDI to train a Neural Network similar to The Continuous Bag of Words Model combined with a predictive scheme to generate new music, or complete an unfinished piece.
 
-**Example Piano Composition**  
+▶️ **Example Piano Composition**  
 *Based of of Grahms Piano Suite*
 
-<audio controls>
-  <source src="B2M.m4a" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<br>
-<br>
+<!--<audio controls>-->
+<!--  <source src="B2M.m4a" type="audio/mpeg">-->
+<!--Your browser does not support the audio element.-->
+<!--</audio>-->
 
 ---
 
@@ -124,7 +122,7 @@ Your browser does not support the audio element.
 ## Patents
 ---
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays**
 <br>
 *Posted May 2020*
 
@@ -132,7 +130,7 @@ Your browser does not support the audio element.
 <br>
 <br>
 
-**[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+**Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays**
 <br>
 *Posted May 2020*
 
