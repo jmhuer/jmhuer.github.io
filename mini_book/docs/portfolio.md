@@ -3,7 +3,7 @@
 ## Computer vision
 ---
 
-🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/object-detection.html)**
+🎵  **[*Generating Music by Continuous Neural Network Predictions*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/object-detection.html)**
 <br>
 *Posted May 2020*
 
@@ -50,7 +50,7 @@
 ## Music
 ---
 
-🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
+🎵  **[*Generating Music by Continuous Neural Network Predictions*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
 *Posted May 2020*
 

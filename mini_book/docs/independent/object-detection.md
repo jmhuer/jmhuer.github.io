@@ -9,9 +9,9 @@ kernelspec:
   name: python3
 ---
 
+# 🎶 Generating Music by Continuous Neural Network Predictions
 
-# 🎶 Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays
- <sub> [← Back to Porfolio](https://github.com/jmhuer)</sub>
+ <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 
  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 

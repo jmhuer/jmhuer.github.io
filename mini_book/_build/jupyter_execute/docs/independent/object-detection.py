@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # 🎶 Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays
-#  <sub> [← Back to Porfolio](https://github.com/jmhuer)</sub>
+# # 🎶 Generating Music by Continuous Neural Network Predictions
+# 
+#  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 # 
 #  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 # 
