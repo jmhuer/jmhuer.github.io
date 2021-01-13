@@ -3,7 +3,9 @@
 <!-- Place this tag in your head or just before your close body tag. -->
 
 ### Education
----
+
+<br>
+
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/austin.png" height="50px" border="1px"></p>
 </div>
@@ -12,7 +14,7 @@
 <br>
 *May 2019 -- May 2020*
 
-<br>
+---
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/columbia.png" height="50px" border="1px"></p>
@@ -23,7 +25,7 @@
 <br>
 *May 2019 -- May 2020*
 
-<br>
+---
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/lawrence.png" height="50px" border="1px"></p>
@@ -34,9 +36,9 @@
 *May 2019 -- May 2020*
 
 
-
 ## Work Experience
----
+
+<br>
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/Rj7iKklK_400x400.jpg" height="50px" border="1px"></p>
@@ -46,7 +48,7 @@
 <br>
 *May 2019 -- May 2020*
 
-<br>
+---
 
 
 <div style="clear: left;">
@@ -57,7 +59,7 @@
 <br>
 *May 2019 -- May 2020*
 
-<br>
+---
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/0.jpeg" height="50px" border="1px"></p>
@@ -69,8 +71,8 @@
 
 
 ## Research Experience
----
 
+<br>
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
@@ -111,15 +113,16 @@
 
 
 ## Patents
----
+
+<br>
 
 **Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays**
 <br>
 *Posted May 2020*
 
 - Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
-<br>
+
+---
 
 **Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays**
 <br>

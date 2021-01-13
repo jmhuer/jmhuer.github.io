@@ -1,6 +1,6 @@
 # Portfolio
 
------------------
+
 
 ## Generating Music by Continuous Neural Network Predictions
 
@@ -12,7 +12,6 @@
 
  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 
-<br>
 
 ---
 
@@ -26,10 +25,8 @@
 
  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 
-<br>
 
 ----
-
 ## Generating Music by Continuous Neural Network Predictions
 
  <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
