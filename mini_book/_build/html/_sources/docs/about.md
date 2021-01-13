@@ -4,8 +4,6 @@
 
 ### Education
 
-<br>
-
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/austin.png" height="50px" border="1px"></p>
 </div>
@@ -38,7 +36,6 @@
 
 ## Work Experience
 
-<br>
 
 <div style="clear: left;">
     <p style="float: left; padding-right: 10px;"><img src="images/Rj7iKklK_400x400.jpg" height="50px" border="1px"></p>
@@ -71,8 +68,6 @@
 
 
 ## Research Experience
-
-<br>
 
 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
 <br>
@@ -113,8 +108,6 @@
 
 
 ## Patents
-
-<br>
 
 **Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays**
 <br>
