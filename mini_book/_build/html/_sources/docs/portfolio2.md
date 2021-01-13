@@ -4,7 +4,7 @@
 
 ## Generating Music by Continuous Neural Network Predictions
 
- <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/mini_book/independent/object-detection.md)</sub>
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 
 <img src="https://www.mdpi.com/applsci/applsci-08-00936/article_deploy/html/images/applsci-08-00936-g001-550.jpg" align="center"/>
 

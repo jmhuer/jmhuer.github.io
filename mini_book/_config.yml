@@ -27,7 +27,7 @@ notebook_interface            : "notebook"
 #######################################################################################
 # Launch button settings
 repository:
-  url                         : https://github.com/jmhuer/jupyter-book #if this stops wokring i saved repo personal_projects
+  url                         : https://github.com/jmhuer/jmhuer.github.io/tree/master/mini_book/docs/independent #if this stops wokring i saved repo personal_projects
   path_to_book                : "mini_book"
 
 binder:

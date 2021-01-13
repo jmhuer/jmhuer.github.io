@@ -1,65 +1,47 @@
 # Portfolio
 
-## Computer vision
+-----------------
+
+## Generating Music by Continuous Neural Network Predictions
+
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/mini_book/independent/object-detection.md)</sub>
+
+<img src="https://www.mdpi.com/applsci/applsci-08-00936/article_deploy/html/images/applsci-08-00936-g001-550.jpg" align="center"/>
+
+<br>
+
+ **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
+
+<br>
+
 ---
 
-🎵  **[*Generating Music by Continuous Neural Network Predictions*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/object-detection.html)**
-<br>
-*Posted May 2020*
+## Predictions of Binary Piano Roll Arrays
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+ <sub> [Learn more](https://davidstutz.de/wordpress/wp-content/uploads/2018/01/arnab_1.jpg)</sub>
 
-<br>
+<img src="https://davidstutz.de/wordpress/wp-content/uploads/2018/01/arnab_1.jpg" align="center"/>
 
-🔎 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
-
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-
-
-## Reiforcement Learning
----
-
-
-🎵  **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
-
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
 <br>
 
-🔎 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
+ **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
 <br>
 
-👀 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+----
+
+## Generating Music by Continuous Neural Network Predictions
+
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
+
+<img src="https://tectales.com/media/story_section_image/529/img-01-rsna-ai-adhd.png" align="center"/>
 
 
-## Music
----
-
-🎵  **[*Generating Music by Continuous Neural Network Predictions*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
-
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
-<br>
 <br>
 
-🔎 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-<br>
-*Posted May 2020*
+ **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch**
 
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+
 
 <br>
 <br>
