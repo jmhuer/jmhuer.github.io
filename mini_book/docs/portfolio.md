@@ -4,7 +4,7 @@
 
 ## Generating Music by Continuous Neural Network Predictions
 
- <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/mini_book/independent/object-detection.md)</sub>
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/object-detection.html)</sub>
 
 <img src="https://www.mdpi.com/applsci/applsci-08-00936/article_deploy/html/images/applsci-08-00936-g001-550.jpg" align="center"/>
 
@@ -18,7 +18,7 @@
 
 ## Predictions of Binary Piano Roll Arrays
 
- <sub> [Learn more](https://davidstutz.de/wordpress/wp-content/uploads/2018/01/arnab_1.jpg)</sub>
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/predictions.html)</sub>
 
 <img src="https://davidstutz.de/wordpress/wp-content/uploads/2018/01/arnab_1.jpg" align="center"/>
 
