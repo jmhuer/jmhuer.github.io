@@ -20,19 +20,13 @@ This is my personal website, I share work related to math, science, and music. M
 <br>
 *Posted May 2020*
 
----
-
 🎶 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
 <br>
 *Posted May 2020*
 
----
-
 🎲 **[*Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
 <br>
 *Posted May 2020*
-
----
 
 👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id2)**
 <br>
