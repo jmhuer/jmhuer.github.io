@@ -6,10 +6,10 @@
 `ai engineer @ ge appliances`
 <br>
 <br>
-[<img src="images/email.png" height="20" align="left"/>](https://jmhuer.github.io/mini_book/_build/html/docs/independent/emailme.html)
-[<img src="images/twitter.png" height="20" align="left"/>](https://twitter.com/JuanHue19563224)
-[<img src="images/git.png" height="20" align="left"/>](https://github.com/jmhuer)
-[<img src="images/cv.png" height="20" align="left"/>](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf)
+🐦 **[*Twitter*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** —
+📝 **[*Resume*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** —
+🐙 **[*Github*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)** —
+📧 **[*Email me*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
 <br>
 <br>
 This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
