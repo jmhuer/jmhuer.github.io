@@ -62,3 +62,7 @@ function Player() {
             React.createElement(Slider, { disabled: mute || disabled, min: 0, max: 1, step: 0.01, value: volume, onChange: (value) => dispatch({ type: "volume", payload: value }), tooltipVisible: false }))));
 }
 ReactDOM.render(React.createElement(Player, null), mountNode);
+
+ReactDOM.render(React.createElement(Player, null), mountNode2);
+
+ReactDOM.render(React.createElement(Player, null), mountNode3);

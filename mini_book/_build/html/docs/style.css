@@ -60,10 +60,23 @@ html, body {
 }
 
 #container2 {
-  width: 700px;
+  width: 85%;
   margin: 0 auto;
   position: absolute;
 }
+
+
+#container {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+}
+#container3 {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+}
+
 
 .player {
   color: #fff;
