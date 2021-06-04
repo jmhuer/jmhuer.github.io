@@ -47,7 +47,7 @@ function Player() {
     const size = "small";
     const { plays, volume, mute, loading, disabled, progress } = state;
     return (React.createElement("div", { className: "player" },
-        React.createElement(ReactPlayer, { url: "http://www.slspencer.com/Sounds/Star%20Wars/Mouse%20Droid/gen3.wav", playing: plays, loop: false, controls: false, light: false, volume: volume, muted: mute, playbackRate: 1, width: 0, height: 0, style: {}, progressInterval: 1000, playsinline: false, pip: false, stopOnUnmount: true, wrapper: "div", 
+        React.createElement(ReactPlayer, { url: "http://www.slspencer.com/Sounds/Star%20Wars/Mouse%20Droid/gen3.wav", playing: plays, loop: false, controls: false, light: false, volume: volume, muted: mute, playbackRate: 1, width: 0, height: 0, style: {}, progressInterval: 1000, playsinline: false, pip: false, stopOnUnmount: true, wrapper: "div",
             // playIcon
             // config
             onReady: () => dispatch({ type: "disabled", payload: false }), onProgress: (played) => dispatch({ type: "progress", payload: played }), onEnded: () => dispatch({ type: "plays", payload: false }), onBuffer: () => dispatch({ type: "loading", payload: true }), onBufferEnd: () => dispatch({ type: "loading", payload: false }), onError: (error) => dispatch({ type: "error", payload: error }) }),

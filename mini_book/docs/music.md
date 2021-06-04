@@ -9,7 +9,7 @@ Another alias I make music under. This project is based on a dream I had regardi
 
 ---
 
-▶️ **Welcome 2 5edex** - 5edex Sucks
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><a id="smiley" title="smiley" href="#" onclick="enableTxt(this, event)" > ▶️ </a>️ Welcome 2 5edex - 5edex Sucks-->
 
 ---
 

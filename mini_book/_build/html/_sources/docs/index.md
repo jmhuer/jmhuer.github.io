@@ -1,5 +1,6 @@
-# Hello
+# Juan M. Huerta
 
+`ai engineer @ ge appliances`
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
@@ -14,13 +15,8 @@
 This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
 <br>
 <br>
-
--- **Juan Huerta**
-
-`ai engineer @ ge appliances`
-
 <br>
-<br>
+
 
 **Recent Activity**
 
