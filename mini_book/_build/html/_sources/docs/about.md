@@ -1,4 +1,4 @@
-# ↓ CV
+# CV
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <br>
