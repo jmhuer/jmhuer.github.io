@@ -1,6 +1,11 @@
 # Email Me
 
-##
+<br>
+
+📫  To reach me [Email me](mailto:jmhuer@gmail.com), or use form below:
+
+<br>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <form action="https://formtoemail.com/user_forms.php" method="post">
