@@ -1,68 +1,28 @@
 # Music
 
-Here I keep my few music projects collected throught the years. Also available on **[*SoundCloud*](http://sdsawtelle.github.io/blog/output/index.html)**
+Below you can find some of my music
 
-## 5edex Sucks
+-  📺 [Youtube Channel](http://scikit-learn.org/stable/) An assortment of tools & example used to develop computer vision systems
 
-Another alias I make music under. This project is based on a dream I had regarding a burning 5edex truck
+-  ☁️ [Soundcloud](http://www.astropy.org/) A table of useful datasets used to train/test computer vision systems
 
-
----
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><a id="smiley" title="smiley" href="#" onclick="enableTxt(this, event)" > ▶️ </a>️ Welcome 2 5edex - 5edex Sucks-->
-
----
-
-▶️ **Birds** - 5edex Sucks
-
----
-
-▶️ **Dreaming** - 5edex Sucks
-
----
 
 <br>
 
-## Algorithmic Music
 
-Another alias I make music under. This project is based on a dream I had regarding a burning 5edex truck
+Also, Here are some ML projects related to music
 
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
----
+👀 **[*Mini RetinaNet Pytorch Implementation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
+<br>
+*Posted May 2020*
 
-▶️ **The secret Messege** - Juan Huerta
+🎶 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+<br>
+*Posted May 2020*
 
----
-
-
-
-## Ai Music
-
-Based on NLP Research - **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](http://sdsawtelle.github.io/blog/output/index.html)**
-
----
-
-▶️ **What an unusual view** - Juan Huerta
-
----
-
-
-## Other
-
----
-
-▶️ **What an unusual view** - Juan Huerta
-
----
-
-▶️ **Is that you bob?** - Juan Huerta
-
----
-
+🎲 **[*Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+<br>
+*Posted May 2020*
 
 <br>
 <br>
