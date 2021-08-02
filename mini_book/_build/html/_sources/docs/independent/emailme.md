@@ -2,7 +2,7 @@
 
 <br>
 
-📫  To reach me [Email me](mailto:jmhuer@gmail.com), or use form below:
+📫  To reach me, feel free to [email me](mailto:jmhuer@gmail.com), or use the form below:
 
 <br>
 
