@@ -1,10 +1,9 @@
 
 import os
 
-os.system("python clean_html.py")
+os.system("python scripts/build.py")
 i = "\"" + input("commit messege?: ") + "\""
-os.system('git add mini_book')
-os.system('git add latex-resume')
+os.system('git add .')
 c = 'git commit -m ' + i
 os.system(c)
 os.system("git push")

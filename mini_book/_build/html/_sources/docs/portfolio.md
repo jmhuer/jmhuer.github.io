@@ -29,7 +29,7 @@
 ----
 ## Generating Music by Continuous Neural Network Predictions
 
- <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
+ <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/predictions.html)</sub>
 
 <img src="https://tectales.com/media/story_section_image/529/img-01-rsna-ai-adhd.png" align="center"/>
 
