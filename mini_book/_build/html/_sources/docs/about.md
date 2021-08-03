@@ -5,3 +5,5 @@
 
 📄 **[*Donwload Curiculum Vitae*](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf)**
 <br>
+📄 **[*Donwload Resume*](https://github.com/jmhuer/jmhuer.github.io/raw/master/latex-resume/juan-resume/resume.pdf)**
+<br>
