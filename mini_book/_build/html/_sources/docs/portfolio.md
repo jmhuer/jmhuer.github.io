@@ -143,6 +143,22 @@
 
  **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...**  <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/predictions.html)</sub>
 
+
+---
+<br>
+
+
+
+##  Automated Machine Learning with SkLearn
+
+<img src="../../../images/automatedml.png" align="center"/>
+
+
+<br>
+
+ **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...**  <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/predictions.html)</sub>
+
+
 <br>
 <br>
 
