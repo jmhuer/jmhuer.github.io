@@ -21,23 +21,23 @@ This is my personal website, I share work related to math, science, and music. M
 **Recent Activity**
 
 -------------------
-👀 **[*Mini RetinaNet Pytorch Implementation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
+🎶 **[*VaryCHarm: Automatically Vary the Complexity of Harmonies in Music*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - May 2020*
 
-🎶 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🤖 **[*Robot and Drone Collaboration and Automation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - May 2020*
 
-🎲 **[*Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🥁 **[*Shift-Invariant Dictionary Learning for Discovering Music Relations*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - May 2020*
 
 👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id2)**
 <br>
 Artificial Intelligence Engineer
 <br>
-*Posted May 2020*
+***New Life Move** - May 2020*
 <!-- [📚  . . . ](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)-->
 
 <!--Education-->
