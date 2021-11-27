@@ -5,7 +5,7 @@
 # 
 #  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 # 
-# <img src="../../../../images/aelstm.png" align="center"/>
+# <img src="../../../../images/robotautonomy.png" align="center"/>
 # 
 # <br>
 # 
