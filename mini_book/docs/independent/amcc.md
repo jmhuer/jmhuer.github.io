@@ -9,11 +9,11 @@ kernelspec:
   name: python3
 ---
 
-# Shift-Invariant Dictionary Learning using Temporal CONV-WTA Autoencoders for Discovering Music Relations
+## Generating Music by Continuous Neural Network Predictions
 
  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 
-<img src="https://www.mdpi.com/applsci/applsci-08-00936/article_deploy/html/images/applsci-08-00936-g001-550.jpg" align="center"/>
+<img src="../../../images/amcc.png" align="center"/>
 
 <br>
 

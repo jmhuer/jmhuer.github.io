@@ -9,11 +9,11 @@ kernelspec:
   name: python3
 ---
 
-# Generating Music by Continuous Neural Network Predictions
+##  CycleGAN for Synthetic Image Generation
 
  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 
-<img src="https://davidstutz.de/wordpress/wp-content/uploads/2018/01/arnab_1.jpg" align="center"/>
+<img src="../../../images/smoke.png" align="center"/>
 
 <br>
 

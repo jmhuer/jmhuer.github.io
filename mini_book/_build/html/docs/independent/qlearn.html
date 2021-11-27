@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Generating Music by Continuous Neural Network Predictions &#8212; Juan</title>
+    <title>Q-learning Chord Sequences with Music Theory &#8212; Juan</title>
     
   <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -159,11 +159,11 @@
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         <a class="dropdown-buttons"
-            href="../../_sources/docs/independent/object-detection.ipynb"><button type="button"
+            href="../../_sources/docs/independent/qlearn.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/independent/object-detection.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/independent/qlearn.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -189,7 +189,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/jmhuer/jmhuer.github.io/master?urlpath=tree/mini_book/docs/independent/object-detection.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/jmhuer/jmhuer.github.io/master?urlpath=tree/mini_book/docs/independent/qlearn.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -211,22 +211,27 @@
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Q-learning Chord Sequences with Music Theory
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#introduction">
    Introduction
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#formal-defenition">
    Formal Defenition
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#linear-programming-and-sdp">
    Linear Programming and SDP
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#numerical-example">
    Numerical Example
   </a>
@@ -242,15 +247,16 @@
         
               <div>
                 
-  <div class="section" id="generating-music-by-continuous-neural-network-predictions">
-<h1>Generating Music by Continuous Neural Network Predictions<a class="headerlink" href="#generating-music-by-continuous-neural-network-predictions" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="q-learning-chord-sequences-with-music-theory">
+<h1>Q-learning Chord Sequences with Music Theory<a class="headerlink" href="#q-learning-chord-sequences-with-music-theory" title="Permalink to this headline">¶</a></h1>
 <p><sub> <a class="reference external" href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html">← Back to Porfolio</a></sub></p>
-<img src="https://www.mdpi.com/applsci/applsci-08-00936/article_deploy/html/images/applsci-08-00936-g001-550.jpg" align="center"/>
+<img src="../../../images/qlearning.png" align="center"/>
 <br>
 <p><strong>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch</strong></p>
 <br>
+</div>
 <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
 <p>There are many applications such as:</p>
@@ -263,7 +269,7 @@
 </ul>
 </div>
 <div class="section" id="formal-defenition">
-<h2>Formal Defenition<a class="headerlink" href="#formal-defenition" title="Permalink to this headline">¶</a></h2>
+<h1>Formal Defenition<a class="headerlink" href="#formal-defenition" title="Permalink to this headline">¶</a></h1>
 <blockquote>
 <div><p><strong>Semidefinite Programming (SDP)</strong> has the form</p>
 <div class="math notranslate nohighlight">
@@ -277,7 +283,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="linear-programming-and-sdp">
-<h2>Linear Programming and SDP<a class="headerlink" href="#linear-programming-and-sdp" title="Permalink to this headline">¶</a></h2>
+<h1>Linear Programming and SDP<a class="headerlink" href="#linear-programming-and-sdp" title="Permalink to this headline">¶</a></h1>
 <p>A linear program LP is a special instance of an SDP.
 This means the LP can be written as an SDP</p>
 <div class="math notranslate nohighlight">
@@ -314,8 +320,7 @@ a_{i 1} &amp; 0 &amp; \ldots &amp; 0 \\
 \end{aligned}\end{split}\]</div>
 </div>
 <div class="section" id="numerical-example">
-<h2>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h2>
-</div>
+<h1>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h1>
 </div>
 
     <script type="text/x-thebe-config">
