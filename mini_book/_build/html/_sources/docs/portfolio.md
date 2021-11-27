@@ -8,7 +8,7 @@
 
 <br>
 
- **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...**  <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/verycharm.html)</sub>
+ **In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...**  <sub> [Learn more](https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html)</sub>
 
 
 ---
