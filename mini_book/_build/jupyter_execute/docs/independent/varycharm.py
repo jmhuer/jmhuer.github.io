@@ -9,7 +9,7 @@
 # 
 # <br>
 # 
-#  **In this post we formulate the problem of varying music complexity mathematically and propose a method to preserve general harmonic structure and melody while vary-ing the number of notes. To do this, we find a compressed representationof pitch while simultaneously training on symbolic chord predictions. Wetest different pitch Autoencoders with various sparsity constraints, and evaluate our results by plotting chord recognition accuracy with increas-ing and decreasing  number  of  notes, observations  in relation  to  music theory, and by analysing absolute and relative musical features with a probabilistic framework.**
+#  In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.
 # 
 # <br>
 # 
