@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # VaryCHarm: A Method to Automatically Vary the Complexity of Harmonies in Music
+# ## Robot and Drone Collaboration and Automation
 # 
 #  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 # 
