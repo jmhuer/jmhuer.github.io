@@ -3,7 +3,7 @@
 
 # ## Adversary Synthetic Data for Language Model
 # 
-#  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
+#  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub>
 # 
 # <img src="https://tectales.com/media/story_section_image/529/img-01-rsna-ai-adhd.png" align="center"/>
 # 
