@@ -13,7 +13,7 @@ kernelspec:
 
  <sub> [← Back to Porfolio](https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html)</sub>
 
-<img src="../../../images/audio2midi.png" align="center"/>
+<img src="../../../../images/audio2midi.png" align="center"/>
 
 <br>
 
