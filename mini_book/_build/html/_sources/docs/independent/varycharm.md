@@ -13,7 +13,7 @@ kernelspec:
 
  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub>
 
-<img src="../../../../images/aelstm.png" align="center"/>
+<img src="../../../../images/varycharm.png" align="center"/>
 
 <br>
 

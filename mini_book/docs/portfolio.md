@@ -4,7 +4,7 @@
 
 ## VaryCHarm: Automatically Vary the Complexity of Harmonies in Music
 
-<img src="../../../images/aelstm.png" align="center"/>
+<img src="../../../images/varycharm.png" align="center"/>
 
 <br>
 
