@@ -21,19 +21,19 @@ This is my personal website, I share work related to math, science, and music. M
 **Recent Activity**
 
 -------------------
-🎶 **[*VaryCHarm: Automatically Vary the Complexity of Harmonies in Music*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
+🎶 **[*VaryCHarm: Automatically Vary the Complexity of Harmonies in Music*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html)**
 <br>
 ***New Blog Post** - May 2020*
 
-🤖 **[*Robot and Drone Collaboration and Automation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🤖 **[*Robot and Drone Collaboration and Automation*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/robot.html)**
 <br>
 ***New Blog Post** - May 2020*
 
-🥁 **[*Shift-Invariant Dictionary Learning for Discovering Music Relations*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🥁 **[*Shift-Invariant Dictionary Learning for Discovering Music Relations*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/sidl.html)**
 <br>
 ***New Blog Post** - May 2020*
 
-👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html#id2)**
+👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html)**
 <br>
 Artificial Intelligence Engineer
 <br>
