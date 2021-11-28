@@ -53,6 +53,6 @@
 # 
 # 
 # 
-# ## Numerical Example
+# ## Results
 # 
 # Below we have some randomly selected examples using a validation set:

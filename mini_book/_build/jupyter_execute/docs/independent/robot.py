@@ -30,7 +30,7 @@
 # 
 # 
 # 
-# ## Formal Defenition
+# ## Problem Defenition
 # An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
 # 
 # <br>

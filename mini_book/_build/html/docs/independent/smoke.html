@@ -217,23 +217,18 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#problem-defenition">
+   Problem Defenition
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#formal-defenition">
-   Formal Defenition
+  <a class="reference internal nav-link" href="#how-do-we-solve-this-problem">
+   How do we solve this problem?
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#linear-programming-and-sdp">
-   Linear Programming and SDP
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numerical-example">
-   Numerical Example
+  <a class="reference internal nav-link" href="#results">
+   Results
   </a>
  </li>
 </ul>
@@ -255,72 +250,24 @@
 <p>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.</p>
 <br>
 </div>
-<div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<hr class="docutils" />
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
-<p>There are many applications such as:</p>
-<ul class="simple">
-<li><p>Machine learning and data science</p></li>
-<li><p>Astronomy</p></li>
-<li><p>Artificial intelligence</p></li>
-<li><p>Chemistry</p></li>
-<li><p>Computational biology</p></li>
-</ul>
-</div>
-<div class="section" id="formal-defenition">
-<h1>Formal Defenition<a class="headerlink" href="#formal-defenition" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="problem-defenition">
+<h1>Problem Defenition<a class="headerlink" href="#problem-defenition" title="Permalink to this headline">¶</a></h1>
+<p>It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original “feeling” of music. In math we write:</p>
 <blockquote>
-<div><p><strong>Semidefinite Programming (SDP)</strong> has the form</p>
+<div><p><strong>The Problem of Varying Harmonic Information</strong>:</p>
+<p>We denote Symbolic music information as piano rools where the input is information with a fixed history length <span class="math notranslate nohighlight">\(H\)</span> as a matrix <span class="math notranslate nohighlight">\(X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}\)</span>. For simplicity, we denote <span class="math notranslate nohighlight">\(\mathcal{X} = \{0,1\}^{P \times H}\)</span> as the input space.</p>
+<p>Then the goal is to learn a mapping <span class="math notranslate nohighlight">\(f_\theta(X_t; \eta) \rightarrow \hat{X}_t \in \mathcal{X}\)</span> parameterized by <span class="math notranslate nohighlight">\(\theta\)</span> such that <span class="math notranslate nohighlight">\(\hat{X}_t\)</span> summarizes (or further ornament) the original piece of music <span class="math notranslate nohighlight">\(X_t\)</span>, given a hyper-parameter <span class="math notranslate nohighlight">\(\eta \in [0,1]\)</span> that controls the sparsity level of <span class="math notranslate nohighlight">\(\hat{X}_t\)</span>. More specifically, we consider the following optimization:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{array}{ll}
-\operatorname{minimize} &amp; C \bullet X \\
-\text { s.t. } &amp; A_{i} \bullet X=b_{i} \quad i=1, \ldots, m \\
-&amp; X \succeq 0
-\end{array}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[C \bullet X:=\sum_{i=1}^{n} \sum_{j=1}^{n} C_{i j} X_{i j}\]</div>
+\[  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t; \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t; \eta)||_0 \leq \eta HP.\]</div>
 </div></blockquote>
 </div>
-<div class="section" id="linear-programming-and-sdp">
-<h1>Linear Programming and SDP<a class="headerlink" href="#linear-programming-and-sdp" title="Permalink to this headline">¶</a></h1>
-<p>A linear program LP is a special instance of an SDP.
-This means the LP can be written as an SDP</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}
-&amp;\operatorname{minimize} \quad C \bullet X\\
-&amp;\begin{array}{ll}
-\text { s.t. } &amp; A_{i} \bullet X=b_{i}\quad i=1, \ldots, m \\
-&amp; X_{i j}=0 \quad i=1, \ldots, n   \quad j=i+1, \ldots, n \\
-&amp; X \succeq 0
-\end{array}
-\end{aligned}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}C=\left(\begin{array}{cccc}
-c_{1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; c_{2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; c_{n}
-\end{array}\right)
-\quad
-X=\left(\begin{array}{cccc}
-x_{1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; x_{2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; x_{n}
-\end{array}\right)\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}
-A_{i}=\left(\begin{array}{cccc}
-a_{i 1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; a_{i 2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; a_{i n}
-\end{array}\right) \quad   i=1, \ldots, m
-\end{aligned}\end{split}\]</div>
+<div class="section" id="how-do-we-solve-this-problem">
+<h1>How do we solve this problem?<a class="headerlink" href="#how-do-we-solve-this-problem" title="Permalink to this headline">¶</a></h1>
+<p>In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE onpitch vector reconstruction and Cross Entropy on symbolic chord targets. Thereconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality</p>
 </div>
-<div class="section" id="numerical-example">
-<h1>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="results">
+<h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
+<p>Below we have some randomly selected examples using a validation set:</p>
 </div>
 
     <script type="text/x-thebe-config">

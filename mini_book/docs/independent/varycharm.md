@@ -61,7 +61,7 @@ In order to reconstruct pitch vectors with the extra criteria of maintaining the
 
 
 
-## Numerical Example
+## Results
 
 Below we have some randomly selected examples using a validation set:
 
