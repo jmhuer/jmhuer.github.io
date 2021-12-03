@@ -68,7 +68,7 @@ Below we have some randomly selected examples using a validation set:
 **Orginal**
 
 <audio controls>
-  <source src="../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/a.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
@@ -76,7 +76,7 @@ Your browser does not support the audio element.
 **0.5 Notes**
 
 <audio controls>
-  <source src="../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/a.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
@@ -84,7 +84,7 @@ Your browser does not support the audio element.
 **1.5 Notes**
 
 <audio controls>
-  <source src="../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/a.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>

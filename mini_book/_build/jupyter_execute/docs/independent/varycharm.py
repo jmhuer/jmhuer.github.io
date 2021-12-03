@@ -60,7 +60,7 @@
 # **Orginal**
 # 
 # <audio controls>
-#   <source src="../../../audio/a.wav" type="audio/wav">
+#   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
 # </audio><br>
 # <br>
@@ -68,7 +68,7 @@
 # **0.5 Notes**
 # 
 # <audio controls>
-#   <source src="../../../audio/a.wav" type="audio/wav">
+#   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
 # </audio><br>
 # <br>
@@ -76,7 +76,7 @@
 # **1.5 Notes**
 # 
 # <audio controls>
-#   <source src="../../../audio/a.wav" type="audio/wav">
+#   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
 # </audio><br>
 # <br>
