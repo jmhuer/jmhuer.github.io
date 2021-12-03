@@ -52,7 +52,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 <br>
 
- In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/audioclassification.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 
@@ -68,7 +68,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 <br>
 
-Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/thermal.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
