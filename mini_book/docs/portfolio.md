@@ -8,7 +8,7 @@
 
 <br>
 
- In this blog post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods.
+ In this blog post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
@@ -22,7 +22,7 @@
 
 <br>
 
-In this blog post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
+In this blog post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/robots.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
@@ -37,7 +37,7 @@ In this blog post I share my experience and a few applications of robots and dro
 
 <br>
 
-The temporal structure of music is full of shift-invariant patterns (e.g. motifs, ostinatos, loops, etc.). We propose using a Tempo- ral Convolutional Winner-Take-All (CONV- WTA) autoencoder to find a shift-invariant dictionary to represent symbolic, multivariate, musical signals. The model learns to represent fixed length drum beats and variable length pi- ano music. We discuss applications of this sparse representation such as de-noising musi- cal ideas, unsupervised learning of composer styles, and music generation. To assist in re- lated work we include interactive code along with the trained models
+The temporal structure of music is full of shift-invariant patterns (e.g. motifs, ostinatos, loops, etc.). We propose using a Tempo- ral Convolutional Winner-Take-All (CONV- WTA) autoencoder to find a shift-invariant dictionary to represent symbolic, multivariate, musical signals. The model learns to represent fixed length drum beats and variable length pi- ano music. We discuss applications of this sparse representation such as de-noising musi- cal ideas, unsupervised learning of composer styles, and music generation. To assist in re- lated work we include interactive code along with the trained models...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 ---
 <br>
@@ -52,7 +52,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 <br>
 
- In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.
+ In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 
@@ -68,7 +68,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 <br>
 
-Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest.
+Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
@@ -127,7 +127,8 @@ Data labeling for object detection/segmentation is expensive to acquire.  In thi
 
 <br>
 
-we present a new symbolic approach to auto- matic music generation. First we create a dataset of 62 hours of Mozart music represented by binary piano roll arrays. The dataset is used to train a 1-hidden layer neural network to predict a section of music given the surrounding music. After training we will use our model to continu- ously predict and replace random sections of existing music completely altering the original into what we consider new music.
+We present a new symbolic approach to auto- matic music generation. First we create a dataset of 62 hours of Mozart music represented by binary piano roll arrays. The dataset is used to train a 1-hidden layer neural network to predict a section of music given the surrounding music. After training we will use our model to continu- ously predict and replace random sections of existing music completely altering the original into what we consider new music....  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/amcc.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+
 ---
 <br>
 
@@ -155,7 +156,7 @@ we present a new symbolic approach to auto- matic music generation. First we cre
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedML.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedml.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 <br>
