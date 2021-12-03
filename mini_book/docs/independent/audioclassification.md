@@ -17,33 +17,40 @@ kernelspec:
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.
+ In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.
 
 <br>
 
 
-## Introduction
+## Laugh Detection Intensity
 ---
 
-An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
+I worked directly on robotics in the
+Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
+robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
+for food items.
 
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/embed/eoMQt4muwW4"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+
+<br>
+<br>
+
+## Service diagnostics using a spectrogram Tasnformers
+---
+
+In addition, we did a proof of concept with the robot arm collaborating with a drone to
+deliver small food items to a nearby user
 There are many applications such as:
 
--   Machine learning and data science
--   Astronomy
--   Artificial intelligence
--   Chemistry
--   Computational biology
-
-
-
-
-## Problem Defenition
-An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
-
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
+src="https://www.youtube.com/embed/eoMQt4muwW4"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
@@ -51,35 +58,5 @@ allowfullscreen
 
 <br>
 <br>
-
-## Numerical Example
-An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
-
-<br>
- <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen
-></iframe></div>
-
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

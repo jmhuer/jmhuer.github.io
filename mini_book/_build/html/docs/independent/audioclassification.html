@@ -212,18 +212,13 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#laugh-detection-intensity">
+   Laugh Detection Intensity
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#problem-defenition">
-   Problem Defenition
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numerical-example">
-   Numerical Example
+  <a class="reference internal nav-link" href="#service-diagnostics-using-a-spectrogram-tasnformers">
+   Service diagnostics using a spectrogram Tasnformers
   </a>
  </li>
 </ul>
@@ -242,27 +237,18 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub></p>
 <img src="../../../../images/audio.png" align="center"/>
 <br>
-<p>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.</p>
+<p>In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.</p>
 <br>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="laugh-detection-intensity">
+<h2>Laugh Detection Intensity<a class="headerlink" href="#laugh-detection-intensity" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
-<p>There are many applications such as:</p>
-<ul class="simple">
-<li><p>Machine learning and data science</p></li>
-<li><p>Astronomy</p></li>
-<li><p>Artificial intelligence</p></li>
-<li><p>Chemistry</p></li>
-<li><p>Computational biology</p></li>
-</ul>
-</div>
-<div class="section" id="problem-defenition">
-<h2>Problem Defenition<a class="headerlink" href="#problem-defenition" title="Permalink to this headline">¶</a></h2>
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
+<p>I worked directly on robotics in the
+Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
+robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
+for food items.</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
+src="https://www.youtube.com/embed/eoMQt4muwW4"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
@@ -270,12 +256,15 @@ allowfullscreen
 <br>
 <br>
 </div>
-<div class="section" id="numerical-example">
-<h2>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h2>
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
+<div class="section" id="service-diagnostics-using-a-spectrogram-tasnformers">
+<h2>Service diagnostics using a spectrogram Tasnformers<a class="headerlink" href="#service-diagnostics-using-a-spectrogram-tasnformers" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p>In addition, we did a proof of concept with the robot arm collaborating with a drone to
+deliver small food items to a nearby user
+There are many applications such as:</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
+src="https://www.youtube.com/embed/eoMQt4muwW4"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen

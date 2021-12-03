@@ -76,17 +76,17 @@
 
 
 
-## Adversary Synthetic Data for Language Model
+<!--## Adversary Synthetic Data for Language Model-->
 
-<img src="https://tectales.com/media/story_section_image/529/img-01-rsna-ai-adhd.png" align="center"/>
+<!--<img src="https://tectales.com/media/story_section_image/529/img-01-rsna-ai-adhd.png" align="center"/>-->
 
 
-<br>
+<!--<br>-->
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/language.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+<!-- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/language.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>-->
 
----
-<br>
+<!------->
+<!--<br>-->
 
 
 
@@ -120,7 +120,7 @@
 
 
 
-## Generating Music by Continuous Neural Network Predictions
+## Automatic Music Composition and Completion
 
 <img src="../../../images/amcc.png" align="center"/>
 
