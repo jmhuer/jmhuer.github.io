@@ -90,18 +90,18 @@ Data labeling for object detection/segmentation is expensive to acquire.  In thi
 
 
 
-## Q-learning Chord Sequences with Music Theory
+<!--## Q-learning Chord Sequences with Music Theory-->
 
-<img src="../../../images/qlearning.png" align="center"/>
-
-
-<br>
-
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/qlearn.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+<!--<img src="../../../images/qlearning.png" align="center"/>-->
 
 
----
-<br>
+<!--<br>-->
+
+<!-- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/qlearn.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>-->
+
+
+<!------->
+<!--<br>-->
 
 
 
