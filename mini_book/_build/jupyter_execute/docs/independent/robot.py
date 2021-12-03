@@ -13,7 +13,7 @@
 # <br>
 # 
 # 
-# ## A simple robot arm
+# ## A Simple Robot Arm
 # ---
 # 
 # I worked directly on robotics in the
@@ -23,7 +23,7 @@
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/watch?v=opX3knb1254"
+# src="https://www.youtube.com/embed/opX3knb1254"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
@@ -32,14 +32,16 @@
 # <br>
 # <br>
 # 
-# ## Add a drone!
+# ## Add a Drone!
+# ---
+# 
 # In addition, we did a proof of concept with the robot arm collaborating with a drone to
 # deliver small food items to a nearby user
 # There are many applications such as:
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/watch?v=tN8Z80PSc-M"
+# src="https://www.youtube.com/embed/tN8Z80PSc-M"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
@@ -49,12 +51,15 @@
 # <br>
 # 
 # 
-# ## A Better Robot arm
+# ## A Better Robot Arm
+# ---
+# 
 # After the success of our earlier proof of concep, the team invested in a more sophisticated robotic arm
 # 
 # <br>
-#  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/watch?v=Nqcwmck2szk"
+#  <div align="center">
+#   <iframe width="560" height="315"
+# src="https://www.youtube.com/embed/Nqcwmck2szk"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
@@ -65,11 +70,14 @@
 # 
 # 
 # ## A Robot from Scratch
+# ---
+# 
 # Several large companies have started to develop home robots as human assistants or companios. At the Emergin Tech group at GE we desgined a robot idea for sever indoor use cases. We add computer vision and load the drone to allow for collaboration
 # 
 # <br>
-#  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/watch?v=bEvj1QQuPf4"
+#  <div align="center">
+#   <iframe width="560" height="315"
+# src="https://www.youtube.com/embed/bEvj1QQuPf4"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
