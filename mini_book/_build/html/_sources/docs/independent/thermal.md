@@ -13,11 +13,11 @@ kernelspec:
 
  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub>
 
-<img src="../../../../images/thermal.png" align="center"/>
+<img src="../../../../images/thermal.png" align="center" />
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.
+Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest.
 
 <br>
 
@@ -25,50 +25,69 @@ kernelspec:
 ## Introduction
 ---
 
-An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
+There are various popular dataset but for costume objects one has to take images and manually label the example as shown in the image below
 
-There are many applications such as:
+<img src="../../../../images/labelex.gif" width="80%" align="center"/>
 
--   Machine learning and data science
--   Astronomy
--   Artificial intelligence
--   Chemistry
--   Computational biology
+<br>
 
-
+This technique can be applied two ways:
+- To speed up data collection process to train supervised computer vision models
+- To be used for object localization in combination with a classification model, to achieve segmentation or object detection task
 
 
-
-## Problem Defenition
-
-It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original "feeling" of music. In math we write:
-> **The Problem of Varying Harmonic Information**:
->
->We denote Symbolic music information as piano rools where the input is information with a fixed history length $H$ as a matrix $X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}$. For simplicity, we denote $\mathcal{X} = \{0,1\}^{P \times H}$ as the input space.
->
->Then the goal is to learn a mapping $f_\theta(X_t; \eta) \rightarrow \hat{X}_t \in \mathcal{X}$ parameterized by $\theta$ such that $\hat{X}_t$ summarizes (or further ornament) the original piece of music $X_t$, given a hyper-parameter $\eta \in [0,1]$ that controls the sparsity level of $\hat{X}_t$. More specifically, we consider the following optimization:
->
->$$  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t; \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t; \eta)||_0 \leq \eta HP.$$
->
+This technique can only be used in specific use cases where objects of interest have a noticeable temperature difference. Such as:
+- Living things
+- Stove top cooking, ovens, or cooking in general
+- Items that can be cooled before collecting data
 
 
+##  Method
+---
 
+The method consists of the following steps.
 
+Step 1: Find placement for thermal/RGB camera
+- In the following slides we show two examples: handheld & above stovetop
 
+Step 2: Specify expected temperature of item of interest
+- For example: 10C < temp > 30C  or temp > 30C) and classes name
 
-## How do we solve this problem?
+Step 3: Run
+- Apply thermal image postprocessing to obtain localization of objects
+- Store RGB image and annotated data
 
-In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE onpitch vector reconstruction and Cross Entropy on symbolic chord targets. Thereconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality
-
+Our postprocessing is as follows: Bucket fill ->  K-means -> Find contour
 
 
 
+##  Stove top examples
+---
 
-## Results
+Here we have a example of living
 
-Below we have some randomly selected examples using a validation set:
+<img src="../../../../images/thermalfood.png" align="center"/>
+
+<br>
+
+##  Regular objects heated up
+---
+
+Here we have a example of living
+
+<img src="../../../../images/thermalwarm.png" align="center"/>
+
+<br>
 
 
+##  Humans or animals
+---
+
+Here we have a example of living
+
+<img src="../../../../images/thermal.png" align="center" />
+
+<br>
 
 
 
