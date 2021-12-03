@@ -113,7 +113,7 @@ Data labeling for object detection/segmentation is expensive to acquire.  In thi
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/audio2midi.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ In this blog post we attempt to convert an audio excerpt from Twinkle Twinkle Little Star, played on the piano, into the corresponding MIDI file using genetic algorithm and show it performs better than a random search and a hill climber baseline....  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/audio2midi.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 ---
 <br>
@@ -141,7 +141,7 @@ We present a new symbolic approach to auto- matic music generation. First we cre
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/smoke.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+Collecting data can be expensive and in certain use cases dangerous to aquire. One such example is smoke data. There are many applications relevant to smoke detection with a camera. To skip the data collection stage we create a synthetic dataset of smoky images...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/smoke.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---

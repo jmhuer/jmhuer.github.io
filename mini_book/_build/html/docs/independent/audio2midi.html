@@ -222,18 +222,23 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#formal-defenition">
-   Formal Defenition
+  <a class="reference internal nav-link" href="#problem-representation">
+   Problem Representation
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#linear-programming-and-sdp">
-   Linear Programming and SDP
+  <a class="reference internal nav-link" href="#generating-initial-population">
+   Generating Initial Population
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numerical-example">
-   Numerical Example
+  <a class="reference internal nav-link" href="#mutuations">
+   Mutuations
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#performance-curve">
+   Performance Curve
   </a>
  </li>
 </ul>
@@ -249,79 +254,53 @@
                 
   <div class="section" id="audio-to-midi-transcription-using-a-genetic-algorithm">
 <h1>Audio to Midi Transcription Using a Genetic Algorithm<a class="headerlink" href="#audio-to-midi-transcription-using-a-genetic-algorithm" title="Permalink to this headline">¶</a></h1>
-<p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub></p>
+<p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/audio2midi.png" align="center"/>
 <br>
-<p>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.</p>
-<br>
+<p>In this blog post we attempt to convert an audio excerpt from Twinkle Twinkle Little Star, played on the piano, into the corresponding MIDI file using genetic algorithm and show it performs better than a random search and a hill climber baseline.
+<br></p>
 </div>
 <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
-<p>There are many applications such as:</p>
-<ul class="simple">
-<li><p>Machine learning and data science</p></li>
-<li><p>Astronomy</p></li>
-<li><p>Artificial intelligence</p></li>
-<li><p>Chemistry</p></li>
-<li><p>Computational biology</p></li>
-</ul>
+<p>MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted  performance, and improvisational composition. It is scheme of great value to the development of modern music. [2]. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance.
+In the search for a more intelligent algorithm to convert from audio to midi a Genetic Algorithm will be used. A Genetic Algorithm, is a bio-inspired, optimization mechanism that can be used very generally. The simple task of converting an audio excerpt of Twinkle Twinkle Little Star into its corresponding MIDI representation will be attempted. The MIDI generated will be limited to only piano sounds.Keep in mind that although there is little novelty in this transcription, the hope is that further developments on the genetic algorithm will eventually outperform the current day pitch detection approaches to audio to midi conversion.</p>
 </div>
-<div class="section" id="formal-defenition">
-<h1>Formal Defenition<a class="headerlink" href="#formal-defenition" title="Permalink to this headline">¶</a></h1>
-<blockquote>
-<div><p><strong>Semidefinite Programming (SDP)</strong> has the form</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{array}{ll}
-\operatorname{minimize} &amp; C \bullet X \\
-\text { s.t. } &amp; A_{i} \bullet X=b_{i} \quad i=1, \ldots, m \\
-&amp; X \succeq 0
-\end{array}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[C \bullet X:=\sum_{i=1}^{n} \sum_{j=1}^{n} C_{i j} X_{i j}\]</div>
-</div></blockquote>
+<div class="section" id="problem-representation">
+<h1>Problem Representation<a class="headerlink" href="#problem-representation" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<p>Individual solution are represented by MIDI files (limited to piano as the only instrument). To evaluate the resemblance to the original audio file, the midi file will be converted to the corresponding audio file—see Figure 2 for an illustration.To create and handle MIDI we will use the Python Module Pretty_Midi. To convert the MIDI into the audio file, we will use the midi2audio interface to the FluidSynth synthesizer with the GS SoundFont.</p>
+<p>Below we have an illustration of how we represent individual solutions. To do this we first crete an individual MIDI file (genotype), and to evaluate its resemblance to the original audio file the MIDI file is converted to its corresponding audio file.</p>
+<img src="../../../../images/audio2midi_rep.png" align="center"/>
 </div>
-<div class="section" id="linear-programming-and-sdp">
-<h1>Linear Programming and SDP<a class="headerlink" href="#linear-programming-and-sdp" title="Permalink to this headline">¶</a></h1>
-<p>A linear program LP is a special instance of an SDP.
-This means the LP can be written as an SDP</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}
-&amp;\operatorname{minimize} \quad C \bullet X\\
-&amp;\begin{array}{ll}
-\text { s.t. } &amp; A_{i} \bullet X=b_{i}\quad i=1, \ldots, m \\
-&amp; X_{i j}=0 \quad i=1, \ldots, n   \quad j=i+1, \ldots, n \\
-&amp; X \succeq 0
-\end{array}
-\end{aligned}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}C=\left(\begin{array}{cccc}
-c_{1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; c_{2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; c_{n}
-\end{array}\right)
-\quad
-X=\left(\begin{array}{cccc}
-x_{1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; x_{2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; x_{n}
-\end{array}\right)\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}
-A_{i}=\left(\begin{array}{cccc}
-a_{i 1} &amp; 0 &amp; \ldots &amp; 0 \\
-0 &amp; a_{i 2} &amp; \ldots &amp; 0 \\
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-0 &amp; 0 &amp; \ldots &amp; a_{i n}
-\end{array}\right) \quad   i=1, \ldots, m
-\end{aligned}\end{split}\]</div>
+<div class="section" id="generating-initial-population">
+<h1>Generating Initial Population<a class="headerlink" href="#generating-initial-population" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<p>To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules</p>
+<img src="../../../../images/table_init.png" width="75%" align="center"/>
 </div>
-<div class="section" id="numerical-example">
-<h1>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="mutuations">
+<h1>Mutuations<a class="headerlink" href="#mutuations" title="Permalink to this headline">¶</a></h1>
+<p>The mutations were decided to be as follows</p>
+<img src="../../../../images/mutations.png" width="100%" align="center"/>
 </div>
+<div class="section" id="performance-curve">
+<h1>Performance Curve<a class="headerlink" href="#performance-curve" title="Permalink to this headline">¶</a></h1>
+<p>Finally our results can be summarized by the plot below</p>
+<img src="../../../../images/ga_performance.png" width="75%" align="center"/>
+<p>And below is our best fitness individual and the original twinkle twinkle little star audio</p>
+<p><strong>Original</strong></p>
+<audio controls>
+  <source src="../../../../audio/a.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio><br>
+<br>
+<p><strong>Best Fitness</strong></p>
+<audio controls>
+  <source src="../../../../audio/a.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio><br>
+<br></div>
 
     <script type="text/x-thebe-config">
     {

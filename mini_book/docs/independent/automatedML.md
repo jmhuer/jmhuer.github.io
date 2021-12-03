@@ -11,7 +11,7 @@ kernelspec:
 
 ##  Automated Machine Learning with SkLearn
 
- <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub>
+ <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub>
 
 <img src="../../../../images/automatedml.png" align="center"/>
 
