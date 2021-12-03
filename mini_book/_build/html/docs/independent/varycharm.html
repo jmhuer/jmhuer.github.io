@@ -252,23 +252,17 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub></p>
 <img src="../../../../images/varycharm.png" align="center"/>
 <br>
-<p>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.</p>
+<p>In this blog post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods.</p>
 <br>
 </div>
 <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>There are many applications such as:</p>
-<ul class="simple">
-<li><p>Machine learning and data science</p></li>
-<li><p>Astronomy</p></li>
-<li><p>Artificial intelligence</p></li>
-<li><p>Chemistry</p></li>
-<li><p>Computational biology</p></li>
-</ul>
+<p>Music complexity can vary but trained and untrained lis- teners are still able to recognize the original music. In this paper, we first formulate the problem of varying music complexity and propose a method to preserve general harmonic structure and melody while vary- ing the number of notes. To do this, we find a compressed representation of pitch while simultaneously training on symbolic chord predictions. We test different pitch Autoencoders with various sparsity constraints, and evaluate our results by plotting chord recognition accuracy with increas- ing and decreasing number of notes, observations in relation to music theory, and by analysing absolute and relative musical features with a probabilistic framework.</p>
 </div>
 <div class="section" id="problem-defenition">
 <h1>Problem Defenition<a class="headerlink" href="#problem-defenition" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
 <p>It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original “feeling” of music. In math we write:</p>
 <blockquote>
 <div><p><strong>The Problem of Varying Harmonic Information</strong>:</p>
@@ -280,12 +274,31 @@
 </div>
 <div class="section" id="how-do-we-solve-this-problem">
 <h1>How do we solve this problem?<a class="headerlink" href="#how-do-we-solve-this-problem" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
 <p>In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE onpitch vector reconstruction and Cross Entropy on symbolic chord targets. Thereconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality</p>
 </div>
 <div class="section" id="results">
 <h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
 <p>Below we have some randomly selected examples using a validation set:</p>
-</div>
+<p><strong>Orginal</strong></p>
+<audio controls>
+  <source src="../../../audio/a.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio><br>
+<br>
+<p><strong>0.5 Notes</strong></p>
+<audio controls>
+  <source src="../../../audio/a.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio><br>
+<br>
+<p><strong>1.5 Notes</strong></p>
+<audio controls>
+  <source src="../../../audio/a.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio><br>
+<br></div>
 
     <script type="text/x-thebe-config">
     {
