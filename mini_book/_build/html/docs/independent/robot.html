@@ -217,18 +217,23 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#a-simple-robot-arm">
+   A simple robot arm
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#problem-defenition">
-   Problem Defenition
+  <a class="reference internal nav-link" href="#add-a-drone">
+   Add a drone!
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numerical-example">
-   Numerical Example
+  <a class="reference internal nav-link" href="#a-better-robot-arm">
+   A Better Robot arm
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-robot-from-scratch">
+   A Robot from Scratch
   </a>
  </li>
 </ul>
@@ -247,28 +252,19 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Porfolio</a> </sub></p>
 <img src="../../../../images/robotautonomy.jpg" align="center"/>
 <br>
-<p>In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.</p>
-<br>
+<p>In this blog post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
+<br></p>
 </div>
-<div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="a-simple-robot-arm">
+<h1>A simple robot arm<a class="headerlink" href="#a-simple-robot-arm" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
-<p>There are many applications such as:</p>
-<ul class="simple">
-<li><p>Machine learning and data science</p></li>
-<li><p>Astronomy</p></li>
-<li><p>Artificial intelligence</p></li>
-<li><p>Chemistry</p></li>
-<li><p>Computational biology</p></li>
-</ul>
-</div>
-<div class="section" id="problem-defenition">
-<h1>Problem Defenition<a class="headerlink" href="#problem-defenition" title="Permalink to this headline">¶</a></h1>
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
+<p>I worked directly on robotics in the
+Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
+robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
+for food items.</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
+src="https://www.youtube.com/watch?v=opX3knb1254"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
@@ -276,12 +272,40 @@ allowfullscreen
 <br>
 <br>
 </div>
-<div class="section" id="numerical-example">
-<h1>Numerical Example<a class="headerlink" href="#numerical-example" title="Permalink to this headline">¶</a></h1>
-<p>An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can</p>
+<div class="section" id="add-a-drone">
+<h1>Add a drone!<a class="headerlink" href="#add-a-drone" title="Permalink to this headline">¶</a></h1>
+<p>In addition, we did a proof of concept with the robot arm collaborating with a drone to
+deliver small food items to a nearby user
+There are many applications such as:</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
+src="https://www.youtube.com/watch?v=tN8Z80PSc-M"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+<br>
+<br>
+</div>
+<div class="section" id="a-better-robot-arm">
+<h1>A Better Robot arm<a class="headerlink" href="#a-better-robot-arm" title="Permalink to this headline">¶</a></h1>
+<p>After the success of our earlier proof of concep, the team invested in a more sophisticated robotic arm</p>
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=Nqcwmck2szk"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+<br>
+<br>
+</div>
+<div class="section" id="a-robot-from-scratch">
+<h1>A Robot from Scratch<a class="headerlink" href="#a-robot-from-scratch" title="Permalink to this headline">¶</a></h1>
+<p>Several large companies have started to develop home robots as human assistants or companios. At the Emergin Tech group at GE we desgined a robot idea for sever indoor use cases. We add computer vision and load the drone to allow for collaboration</p>
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=bEvj1QQuPf4"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen

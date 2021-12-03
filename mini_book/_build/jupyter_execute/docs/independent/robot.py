@@ -9,33 +9,21 @@
 # 
 # <br>
 # 
-#  In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.
-# 
+# In this blog post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
 # <br>
 # 
 # 
-# ## Introduction
+# ## A simple robot arm
 # ---
 # 
-# An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
-# 
-# There are many applications such as:
-# 
-# -   Machine learning and data science
-# -   Astronomy
-# -   Artificial intelligence
-# -   Chemistry
-# -   Computational biology
-# 
-# 
-# 
-# 
-# ## Problem Defenition
-# An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
+# I worked directly on robotics in the
+# Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
+# robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
+# for food items.
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/embed/MUQfKFzIOeU"
+# src="https://www.youtube.com/watch?v=opX3knb1254"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
@@ -44,12 +32,44 @@
 # <br>
 # <br>
 # 
-# ## Numerical Example
-# An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can, ann SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
+# ## Add a drone!
+# In addition, we did a proof of concept with the robot arm collaborating with a drone to
+# deliver small food items to a nearby user
+# There are many applications such as:
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
-# src="https://www.youtube.com/embed/MUQfKFzIOeU"
+# src="https://www.youtube.com/watch?v=tN8Z80PSc-M"
+# frameborder="0"
+# allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+# allowfullscreen
+# ></iframe></div>
+# 
+# <br>
+# <br>
+# 
+# 
+# ## A Better Robot arm
+# After the success of our earlier proof of concep, the team invested in a more sophisticated robotic arm
+# 
+# <br>
+#  <div align="center">   <iframe width="560" height="315"
+# src="https://www.youtube.com/watch?v=Nqcwmck2szk"
+# frameborder="0"
+# allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+# allowfullscreen
+# ></iframe></div>
+# 
+# <br>
+# <br>
+# 
+# 
+# ## A Robot from Scratch
+# Several large companies have started to develop home robots as human assistants or companios. At the Emergin Tech group at GE we desgined a robot idea for sever indoor use cases. We add computer vision and load the drone to allow for collaboration
+# 
+# <br>
+#  <div align="center">   <iframe width="560" height="315"
+# src="https://www.youtube.com/watch?v=bEvj1QQuPf4"
 # frameborder="0"
 # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 # allowfullscreen
