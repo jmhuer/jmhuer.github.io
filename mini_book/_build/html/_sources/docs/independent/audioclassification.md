@@ -22,7 +22,7 @@ kernelspec:
 <br>
 
 
-## Laugh Detection Intensity
+## Laugh Detection
 ---
 
 I worked directly on robotics in the
@@ -32,7 +32,7 @@ for food items.
 
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/eoMQt4muwW4"
+src="https://www.youtube.com/embed/bOG9VGZbTj8"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
@@ -51,6 +51,19 @@ There are many applications such as:
 <br>
  <div align="center">   <iframe width="560" height="315"
 src="https://www.youtube.com/embed/eoMQt4muwW4"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+
+## Activity Recognition with spectrogram Tasnformers
+---
+
+In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically
+
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/embed/snkbodqne9o"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen

@@ -212,13 +212,18 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#laugh-detection-intensity">
-   Laugh Detection Intensity
+  <a class="reference internal nav-link" href="#laugh-detection">
+   Laugh Detection
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#service-diagnostics-using-a-spectrogram-tasnformers">
    Service diagnostics using a spectrogram Tasnformers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#activity-recognition-with-spectrogram-tasnformers">
+   Activity Recognition with spectrogram Tasnformers
   </a>
  </li>
 </ul>
@@ -239,8 +244,8 @@
 <br>
 <p>In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.</p>
 <br>
-<div class="section" id="laugh-detection-intensity">
-<h2>Laugh Detection Intensity<a class="headerlink" href="#laugh-detection-intensity" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="laugh-detection">
+<h2>Laugh Detection<a class="headerlink" href="#laugh-detection" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p>I worked directly on robotics in the
 Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
@@ -248,7 +253,7 @@ robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow th
 for food items.</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/eoMQt4muwW4"
+src="https://www.youtube.com/embed/bOG9VGZbTj8"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
@@ -265,6 +270,18 @@ There are many applications such as:</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
 src="https://www.youtube.com/embed/eoMQt4muwW4"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+</div>
+<div class="section" id="activity-recognition-with-spectrogram-tasnformers">
+<h2>Activity Recognition with spectrogram Tasnformers<a class="headerlink" href="#activity-recognition-with-spectrogram-tasnformers" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p>In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically</p>
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/embed/snkbodqne9o"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
