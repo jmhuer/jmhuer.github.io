@@ -55,28 +55,92 @@
 # ## Results
 # ---
 # 
-# Below we have some randomly selected examples using a validation set:
-# 
-# **Orginal**
-# 
+# ### Example 1
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
 # <audio controls>
 #   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
-# </audio><br>
+# </audio> </div>
+# <br>
 # <br>
 # 
-# **0.5 Notes**
-# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
 # <audio controls>
 #   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
-# </audio><br>
+# </audio> </div>
+# <br>
 # <br>
 # 
-# **1.5 Notes**
-# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
 # <audio controls>
 #   <source src="../../../../audio/a.wav" type="audio/wav">
 # Your browser does not support the audio element.
-# </audio><br>
+# </audio> </div>
 # <br>
+# <br>
+# 
+# ---
+# ### Example 2
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# ---
+# ### Example 3 - Added Notes as Strings
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# <img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+# <div align="center">
+# <audio controls>
+#   <source src="../../../../audio/a.wav" type="audio/wav">
+# Your browser does not support the audio element.
+# </audio> </div>
+# <br>
+# <br>
+# 
+# ---
+# ## Conclusion
+# Our results indicate the end-to-end autoencoder-BiLSTM Lifetime method outperforms a simple music theory baseline, and a regular auto encoder according to the metrics discussed. The current method does have a few limi- tations. Namely we are compressing pitch information and most of the added embellishments are added vertically and depend on build on the existing rhythm. However, we believe this method and evaluation scheme provides some ground work for exploring rhythmic components to potentially be extended.
