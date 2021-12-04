@@ -9,53 +9,35 @@
 # 
 # <br>
 # 
-#  In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch.
+#  In this blog post Ill explain automated machine learning (AutoML); and provide an example for a simple classificatino tasks using various common algorithms in a frequentist and bayesian setting
 # 
 # <br>
 # 
 # 
-# ## Introduction
+# ## What is AutoML?
 # ---
 # 
-# An SDP (Semidefinite Programming) is a superclass of LP (linear programming). Its called an SDP because the programs can
+# Automated Machine Learning (AutoML) is tied in with producing Machine Learning solutions for the data scientist without doing unlimited inquiries on data preparation, model selection, model hyperparameters, and model compression parameters.
+# On top of that AutoML frameworks help the data scientist in:
+# - Data visualization
+# - Model intelligibility
+# - Model deployment
 # 
-# There are many applications such as:
+# AutoML is viewed as about algorithm selection, hyperparameter tuning of models, iterative modeling, and model evaluation. It is about making Machine Learning tasks easier to use less code and avoid hyper tuning manually.
 # 
-# -   Machine learning and data science
-# -   Astronomy
-# -   Artificial intelligence
-# -   Chemistry
-# -   Computational biology
+# <img src="../../../../images/automl.png" align="center" />
 # 
+# <br>
+# <br>
 # 
+# ## Random Search
+# ---
 # 
+# The simplest way to think about hyper parameter optimization is to randomly try different combinations and pick the best setting
 # 
+# <br>
 # 
-# ## Problem Defenition
+# ## Grid Search
+# ---
 # 
-# It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original "feeling" of music. In math we write:
-# > **The Problem of Varying Harmonic Information**:
-# >
-# >We denote Symbolic music information as piano rools where the input is information with a fixed history length $H$ as a matrix $X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}$. For simplicity, we denote $\mathcal{X} = \{0,1\}^{P \times H}$ as the input space.
-# >
-# >Then the goal is to learn a mapping $f_\theta(X_t; \eta) \rightarrow \hat{X}_t \in \mathcal{X}$ parameterized by $\theta$ such that $\hat{X}_t$ summarizes (or further ornament) the original piece of music $X_t$, given a hyper-parameter $\eta \in [0,1]$ that controls the sparsity level of $\hat{X}_t$. More specifically, we consider the following optimization:
-# >
-# >$$  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t; \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t; \eta)||_0 \leq \eta HP.$$
-# >
-# 
-# 
-# 
-# 
-# 
-# 
-# ## How do we solve this problem?
-# 
-# In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE onpitch vector reconstruction and Cross Entropy on symbolic chord targets. Thereconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality
-# 
-# 
-# 
-# 
-# 
-# ## Results
-# 
-# Below we have some randomly selected examples using a validation set:
+# Another obvious appraoch is to iterate through a list of possible configurations. This is know as grid search

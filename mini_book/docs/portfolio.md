@@ -156,7 +156,7 @@ Collecting data can be expensive and in certain use cases dangerous to aquire. O
 
 <br>
 
- In this blog post I will explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch. explain what an SDP is and one application: how to find optimal bridge points using Python libraries: scikit, numpy, pytorch...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedml.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ In this blog post Ill explain automated machine learning (AutoML); and provide an example for a simple classificatino tasks using various common algorithms in a frequentist and bayesian setting...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/automatedml.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 <br>
