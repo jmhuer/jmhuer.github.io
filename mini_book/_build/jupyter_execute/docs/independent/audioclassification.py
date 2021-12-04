@@ -17,10 +17,7 @@
 # ## Laugh Detection
 # ---
 # 
-# I worked directly on robotics in the
-# Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
-# robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
-# for food items.
+# Using AudioSet data we train a laugh detection sound classification and interpret the output for the laugh class as an intensity measure [0,1] to control the intensity of a philips hue bulb
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
