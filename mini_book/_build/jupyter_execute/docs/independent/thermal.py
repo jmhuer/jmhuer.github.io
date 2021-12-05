@@ -33,6 +33,10 @@
 # - Stove top cooking, ovens, or cooking in general
 # - Items that can be cooled before collecting data
 # 
+# Here is the code used: https://github.com/jmhuer/mask_from_thermal_image
+# 
+# You will need a Flir camera specifically since it is crucial to be able to take an image with both RGB and Thermal sensors and calibrate overlay between the two images.
+# 
 # 
 # ##  Method
 # ---
@@ -54,10 +58,10 @@
 # 
 # 
 # 
-# ##  Stove top examples
+# ##  Stove Top Examples
 # ---
 # 
-# Here we have a example of living
+# Here we have an example applying our proposed method on food being cooked. This setting provides us a very natural temperature differential since the pan is almost always hotter than the food. Of course there are exceptions but this method is not meant to sutable for all settings, otherwise we wouldnt need ai :D
 # 
 # <img src="../../../../images/thermalfood.png" align="center"/>
 # 
@@ -66,7 +70,7 @@
 # ##  Regular objects heated up
 # ---
 # 
-# Here we have a example of living
+# Here we have an example applying our proposed method on items that were left in the fridge for a few min. This creates the necessary temperature differential:
 # 
 # <img src="../../../../images/thermalwarm.png" align="center"/>
 # 
@@ -76,7 +80,7 @@
 # ##  Humans or animals
 # ---
 # 
-# Here we have a example of living
+# Finally mammals usually have a body temperature higher than the surroundings. In these settings our method can be applied naturally
 # 
 # <img src="../../../../images/thermal.png" align="center" />
 # 
