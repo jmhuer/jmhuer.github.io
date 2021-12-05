@@ -2,9 +2,9 @@
 
 Below you can find some of my music
 
--  📺 [Youtube Channel](http://scikit-learn.org/stable/)
+-  📺 [Youtube Channel](https://www.youtube.com/channel/UC28HixRrIwMU7Wc4R_sUouA/videos)
 
--  ☁️ [Soundcloud](http://www.astropy.org/)
+-  ☁️ [Soundcloud](https://soundcloud.com/juan-huerta-426449224)
 
 
 <br>
