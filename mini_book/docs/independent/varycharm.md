@@ -64,28 +64,28 @@ In order to reconstruct pitch vectors with the extra criteria of maintaining the
 ---
 
 ### Example 1
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example1a-1.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example1a-1.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example1a-2.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example1a-2.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example1a-3.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example1a-3.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
@@ -93,28 +93,28 @@ Your browser does not support the audio element.
 
 ---
 ### Example 2
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example2a-1.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example2a-1.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example2a-2.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example2a-2.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example2a-3.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example2a-3.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
@@ -122,28 +122,28 @@ Your browser does not support the audio element.
 
 ---
 ### Example 3 - Added Notes as Strings
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example3a-1.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example3a-1.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example3a-2.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example3a-2.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
 <br>
 
-<img src="../../../../images/pianoroll.png" width="70%"  align="center"/>
+<img src="../../../../images/example3a-3.png" width="70%"  align="center"/>
 <div align="center">
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/example3a-3.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio> </div>
 <br>
