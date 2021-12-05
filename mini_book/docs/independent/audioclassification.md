@@ -39,7 +39,7 @@ allowfullscreen
 <br>
 <br>
 
-## Service Diagnostics using a Spectrogram Transformer
+## Service Diagnostics Running iOS CoreML
 ---
 
 In addition, we did a proof of concept with the robot arm collaborating with a drone to
