@@ -212,18 +212,18 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#laugh-detection">
-   Laugh Detection
+  <a class="reference internal nav-link" href="#laugh-detection-philips-hue-bulb">
+   Laugh Detection + Philips Hue Bulb
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#service-diagnostics-using-a-spectrogram-tasnformers">
-   Service diagnostics using a spectrogram Tasnformers
+  <a class="reference internal nav-link" href="#service-diagnostics-using-a-spectrogram-transformer">
+   Service Diagnostics using a Spectrogram Transformer
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#activity-recognition-with-spectrogram-tasnformers">
-   Activity Recognition with spectrogram Tasnformers
+  <a class="reference internal nav-link" href="#activity-recognition-with-spectrogram-transformer">
+   Activity Recognition with Spectrogram Transformer
   </a>
  </li>
 </ul>
@@ -242,10 +242,14 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/audio.png" align="center"/>
 <br>
-<p>In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.</p>
+<p>In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches. We are testing two different methods:</p>
+<ul class="simple">
+<li><p>Spectogram + CNN (pre-trained AlexNet). Here is the repository: https://github.com/jmhuer/specCNN_sound_classification</p></li>
+<li><p>Spectogram + Transformer (16x16 image patches). Here is the repository: https://github.com/jmhuer/spectogram_transformer</p></li>
+</ul>
 <br>
-<div class="section" id="laugh-detection">
-<h2>Laugh Detection<a class="headerlink" href="#laugh-detection" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="laugh-detection-philips-hue-bulb">
+<h2>Laugh Detection + Philips Hue Bulb<a class="headerlink" href="#laugh-detection-philips-hue-bulb" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p>Using AudioSet data we train a laugh detection sound classification and interpret the output for the laugh class as an intensity measure [0,1] to control the intensity of a philips hue bulb</p>
 <br>
@@ -258,8 +262,8 @@ allowfullscreen
 <br>
 <br>
 </div>
-<div class="section" id="service-diagnostics-using-a-spectrogram-tasnformers">
-<h2>Service diagnostics using a spectrogram Tasnformers<a class="headerlink" href="#service-diagnostics-using-a-spectrogram-tasnformers" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="service-diagnostics-using-a-spectrogram-transformer">
+<h2>Service Diagnostics using a Spectrogram Transformer<a class="headerlink" href="#service-diagnostics-using-a-spectrogram-transformer" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p>In addition, we did a proof of concept with the robot arm collaborating with a drone to
 deliver small food items to a nearby user
@@ -272,8 +276,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
 ></iframe></div>
 </div>
-<div class="section" id="activity-recognition-with-spectrogram-tasnformers">
-<h2>Activity Recognition with spectrogram Tasnformers<a class="headerlink" href="#activity-recognition-with-spectrogram-tasnformers" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="activity-recognition-with-spectrogram-transformer">
+<h2>Activity Recognition with Spectrogram Transformer<a class="headerlink" href="#activity-recognition-with-spectrogram-transformer" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p>In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically</p>
 <br>

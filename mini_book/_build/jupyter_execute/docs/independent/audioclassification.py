@@ -9,12 +9,13 @@
 # 
 # <br>
 # 
-#  In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches.
+#  In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches. We are testing two different methods:
+#  - Spectogram + CNN (pre-trained AlexNet). Here is the repository: https://github.com/jmhuer/specCNN_sound_classification
+#  - Spectogram + Transformer (16x16 image patches). Here is the repository: https://github.com/jmhuer/spectogram_transformer
 # 
 # <br>
 # 
-# 
-# ## Laugh Detection
+# ## Laugh Detection + Philips Hue Bulb
 # ---
 # 
 # Using AudioSet data we train a laugh detection sound classification and interpret the output for the laugh class as an intensity measure [0,1] to control the intensity of a philips hue bulb
@@ -30,7 +31,7 @@
 # <br>
 # <br>
 # 
-# ## Service diagnostics using a spectrogram Tasnformers
+# ## Service Diagnostics using a Spectrogram Transformer
 # ---
 # 
 # In addition, we did a proof of concept with the robot arm collaborating with a drone to
@@ -45,7 +46,7 @@
 # allowfullscreen
 # ></iframe></div>
 # 
-# ## Activity Recognition with spectrogram Tasnformers
+# ## Activity Recognition with Spectrogram Transformer
 # ---
 # 
 # In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically

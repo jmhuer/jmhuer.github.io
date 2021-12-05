@@ -36,8 +36,7 @@
 # ---
 # 
 # In addition, we did a proof of concept with the robot arm collaborating with a drone to
-# deliver small food items to a nearby user
-# There are many applications such as:
+# deliver small food items to a nearby user. Below is a demo:
 # 
 # <br>
 #  <div align="center">   <iframe width="560" height="315"
