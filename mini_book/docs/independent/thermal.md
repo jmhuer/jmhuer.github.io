@@ -74,7 +74,7 @@ Here we have an example applying our proposed method on food being cooked. This 
 
 <br>
 
-##  Regular objects heated up
+##  Regular Objects Heated up
 ---
 
 Here we have an example applying our proposed method on items that were left in the fridge for a few min. This creates the necessary temperature differential:
@@ -84,7 +84,7 @@ Here we have an example applying our proposed method on items that were left in 
 <br>
 
 
-##  Humans or animals
+##  Humans or Animals
 ---
 
 Finally mammals usually have a body temperature higher than the surroundings. In these settings our method can be applied naturally
