@@ -49,8 +49,7 @@
 # 
 # ## Results
 # 
-# A linear program LP is a special instance of an SDP.
-# This means the LP can be written as an SDP
+# Below, are some of the results. To verify we have a good representation we can plot the representation of the data using our dictionary representation
 # 
 # 
 # <img src="../../../../images/pca.png" align="center"/>
