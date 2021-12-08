@@ -12,7 +12,7 @@
 <!--🐙 **[*Github*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**-->
 <!--<br>-->
 <!--<br>-->
-This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling. Feel free to contact me regarding any of my projects, or with any other questions.
+This is my personal website, I share work related to math, science, and music. My current area of focus is in unsupervised computer vision techniques, and temporal sequence modeling.  Feel free to contact me regarding any of my projects, or with any other questions.
 <br>
 <br>
 <br>
@@ -23,15 +23,15 @@ This is my personal website, I share work related to math, science, and music. M
 -------------------
 🎶 **[*VaryCHarm: Automatically Vary the Complexity of Harmonies in Music*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html)**
 <br>
-***New Blog Post** - May 2020*
+***New Blog Post** - Dec 2021*
 
 🤖 **[*Robot and Drone Collaboration and Automation*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/robot.html)**
 <br>
-***New Blog Post** - May 2020*
+***New Blog Post** - Nov 2021*
 
 🥁 **[*Shift-Invariant Dictionary Learning for Discovering Music Relations*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/sidl.html)**
 <br>
-***New Blog Post** - May 2020*
+***New Blog Post** - Sep 2021*
 
 👨🏾‍💻 **[*Started new position at GE appliances*](https://jmhuer.github.io/mini_book/_build/html/docs/timeline.html)**
 <br>

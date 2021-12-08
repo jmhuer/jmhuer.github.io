@@ -25,7 +25,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 The dictionary learning framework aims at finding a sparse representation of the input data (sparse coding) in the form of a linear combination of ba- sic elements called atoms. In doing so, sparse coding enables faster inference and easier inter- pretability thanks to its lightweight stored mem- ory, encoding of prior knowledge in the sparsity patterns, and discerning patterns in an informed and principled manner.
 Sparse dictionary learning has led to state-of-art results in various tasks including image and video processing, texture synthesis (Peyre ́, 2009), and unsupervised clustering (Ram ́ırez et al., 2010). In evaluations with the Bag-of-Words model (Ko- niusz et al., 2017), sparse coding was found empir- ically to outperform other coding approaches on category recognition tasks.
-When applied to music, the ability to distil complex data structures down to sets of dictio- naries—salient features of a specific performer or music, has a multitude of applications. Music transcription and classification tasks have seen a strong usage of sparse dictionary learning in the past (Grosse et al., 2007) (Costantini et al., 2013), (Blumensath and Davies, 2006), (Srinivas M et al., 2014), (Srinivas et al., 2014), (Cogliati et al., 2016). Nonetheless, we have yet to see a study that harnesses the advantages of sparse representa- tion for the purpose of music creation. Instead, the popular methods for discovering music relations and achieving music generation have been a trans- former with some sort of attention mechanism or other recurrent architectures. For instance, (Jiang Junyan et al., 2020) uses an attention module that is tailored to the discovery of sequence level rela- tions in music, while studies like (Roberts et al., 2018) uses the recurrent variational autoencoder and a hierarchical decoder in order to model long- term musical structures. In our study, we explore applications of sparse representation such as de- noising musical ideas, unsupervised learning of composer styles, and music generation.
+When applied to music, the ability to distill complex data structures down to sets of dictio- naries—salient features of a specific performer or music, has a multitude of applications. Music transcription and classification tasks have seen a strong usage of sparse dictionary learning in the past (Grosse et al., 2007) (Costantini et al., 2013), (Blumensath and Davies, 2006), (Srinivas M et al., 2014), (Srinivas et al., 2014), (Cogliati et al., 2016). Nonetheless, we have yet to see a study that harnesses the advantages of sparse representa- tion for the purpose of music creation. Instead, the popular methods for discovering music relations and achieving music generation have been a trans- former with some sort of attention mechanism or other recurrent architectures. For instance, (Jiang Junyan et al., 2020) uses an attention module that is tailored to the discovery of sequence level rela- tions in music, while studies like (Roberts et al., 2018) uses the recurrent variational autoencoder and a hierarchical decoder in order to model long- term musical structures. In our study, we explore applications of sparse representation such as de- noising musical ideas, unsupervised learning of composer styles, and music generation.
 
 There are many applications such as:
 
@@ -73,7 +73,7 @@ One way of generating new music is to interpolate latent space. There are variou
 **Original 1**
 
 <audio controls>
-  <source src="../../../../audio/target.wav" type="audio/wav">
+  <source src="../../../../audio/sidl1.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
@@ -81,7 +81,7 @@ Your browser does not support the audio element.
 **Original 2**
 
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/sidl2.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
@@ -89,7 +89,7 @@ Your browser does not support the audio element.
 **Interpolated Result**
 
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/sidl3.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
