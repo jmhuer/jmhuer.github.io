@@ -46,7 +46,7 @@ The neural network model is an adaptation to the CBWM introduced by Mikolov et a
 
 ### Example 1 (Edvard Grieg)
 
-Below we show a few results
+Below we show a few results. The sheet music represents the generated section at approximately at 5:09
 
 
 <img src="../../../../images/(1).png" align="center"/>
