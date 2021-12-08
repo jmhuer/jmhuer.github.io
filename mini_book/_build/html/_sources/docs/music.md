@@ -4,27 +4,32 @@ Below you can find some of my music
 
 -  📺 [Youtube Channel](https://www.youtube.com/channel/UC28HixRrIwMU7Wc4R_sUouA/videos)
 
--  ☁️ [Soundcloud](https://soundcloud.com/juan-huerta-426449224)
+-  ☁️ [Soundcloud](https://soundcloud.com/5edex-sucks/sets/juans-music)
 
-
-<br>
 
 
 Here are some ML projects related to music
 
-👀 **[*Mini RetinaNet Pytorch Implementation*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/computer-vision/object-detection.html)**
+🎶 **[*VaryCHarm: Automatically Vary the Complexity of Harmonies in Music*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - Dec 2021*
 
-🎶 **[*Generating Music by Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🥁 **[*Shift-Invariant Dictionary Learning for Discovering Music Relations*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/sidl.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - Sep 2021*
 
-🎲 **[*Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/data-science-blog/mini_book/_build/html/docs/index.html)**
+🥁 **[*Audio to Midi Transcription Using a Genetic Algorithm*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/audio2midi.html)**
 <br>
-*Posted May 2020*
+***New Blog Post** - Aug 2020*
+
+🎲 **[*Continuous Neural Network Predictions of Binary Piano Roll Arrays*](https://jmhuer.github.io/mini_book/_build/html/docs/independent/amcc.html)**
+<br>
+***New Blog Post** - Jan 2020*
+
+
 
 ## Short Playlist
+---
 
 Below is a short playlist with some of my most recent music
 
