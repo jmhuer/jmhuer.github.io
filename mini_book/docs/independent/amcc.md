@@ -43,6 +43,9 @@ The neural network model is an adaptation to the CBWM introduced by Mikolov et a
 ## Results
 ---
 
+
+### Example 1 (Edvard Grieg)
+
 Below we show a few results
 
 
@@ -52,7 +55,7 @@ Below we show a few results
 **Orginal**
 
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/2.Grieg.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
 <br>
@@ -60,9 +63,11 @@ Your browser does not support the audio element.
 **Generated**
 
 <audio controls>
-  <source src="../../../../audio/a.wav" type="audio/wav">
+  <source src="../../../../audio/2.Based_on_Grieg.wav" type="audio/wav">
 Your browser does not support the audio element.
-</audio><br>
+</audio>
+
+<br>
 <br>
 
 
