@@ -23,6 +23,22 @@ kernelspec:
 
 <br>
 
+## Activity Recognition with Spectrogram Transformer
+---
+
+In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically
+
+<br>
+ <div align="center">   <iframe width="560" height="315"
+src="https://www.youtube.com/embed/snkbodqne9o"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+
+<br>
+<br>
+
 ## Laugh Detection + Philips Hue Bulb
 ---
 
@@ -54,18 +70,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
 ></iframe></div>
 
-## Activity Recognition with Spectrogram Transformer
----
 
-In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically
-
-<br>
- <div align="center">   <iframe width="560" height="315"
-src="https://www.youtube.com/embed/snkbodqne9o"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen
-></iframe></div>
 
 <br>
 <br>
