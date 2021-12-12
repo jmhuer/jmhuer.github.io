@@ -30,8 +30,9 @@
 # ## Problem Defenition
 # ---
 # 
-# It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original "feeling" of music. In math we write:
-# > **Shift Invariant Dictionary Learning**:
+# Shift-invariant dictionary learning (SIDL) refers to the problem of discovering a latent basis that captures local patterns at different locations of in- put signal, and a sparse coding for each sequence as a linear combination of these elements (Zheng et al., 2016) In previous works, various shift- invariant dictionary learning (SIDL) methods have been employed to discover local patterns that are embedded across a longer time series in sequential data such as audio signals (Grosse et al., 2007)
+# This has a similar formulation as DL except that in order to reconstruct the signal, we need to stride
+# > **Dictionary Learning**:
 # >
 # >
 # >Given the data: $ X=\left[x_{1}, \ldots, x_{K}\right], x_{i} \in \mathbb{R}^{d} $. We want a dictionary $\mathbf{D} \in \mathbb{R}^{d \times n}: D=\left[d_{1}, \ldots, d_{n}\right]$ , and a representation $R=\left[r_{1}, \ldots, r_{K}\right], r_{i} \in \mathbb{R}^{n}$ such that the reconstruction $\|X-\mathbf{D} R\|_{F}^{2}$ is minimized and $r_{i}$ are sparsed. The optimization problem can be formulated as:
