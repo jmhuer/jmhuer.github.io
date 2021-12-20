@@ -48,7 +48,7 @@ The simplest way to think about hyper parameter optimization is to randomly try 
 ## Grid Search
 ---
 
-Another obvious appraoch is to iterate through a list of possible configurations. This is know as grid search
+Another approach is to iterate through a list of possible configurations. This is know as grid search
 
 
 

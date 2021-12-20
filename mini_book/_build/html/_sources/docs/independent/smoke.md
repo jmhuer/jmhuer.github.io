@@ -21,7 +21,7 @@ Collecting data can be expensive and in certain use cases dangerous to acquire. 
 <br>
 
 
-The Full repository for generation and classification is available here: [smoke-detection-repository](https://github.com/patel996/smoke-detection)
+The Full repository for generation and classification is available here: [smoke-cyclegan-repository](https://github.com/patel996/smoke-detection)
 
 ## Synthetic data
 ---
@@ -58,7 +58,7 @@ Below we have some randomly selected examples using a validation set:
 ## Classifying smoky images
 ---
 
-Pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from https://github.com/imsaksham-c/Fire-Smoke-Detection.
+Pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from [smoke-detection-repository](https://github.com/imsaksham-c/Fire-Smoke-Detection) .
 
 
 
