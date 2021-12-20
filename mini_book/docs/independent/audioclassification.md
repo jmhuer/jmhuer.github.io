@@ -17,7 +17,7 @@ kernelspec:
 
 <br>
 
- In this blog post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches. We are testing two different methods:
+ In this post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches. We are testing two different methods:
  - Spectogram + CNN (pre-trained AlexNet). Here is the repository: https://github.com/jmhuer/specCNN_sound_classification
  - Spectogram + Transformer (16x16 image patches). Here is the repository: https://github.com/jmhuer/spectogram_transformer
 

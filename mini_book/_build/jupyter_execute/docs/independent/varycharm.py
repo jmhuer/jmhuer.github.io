@@ -9,7 +9,7 @@
 # 
 # <br>
 # 
-#  In this blog post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods.
+#  In this post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods.
 # 
 # 
 # <br>

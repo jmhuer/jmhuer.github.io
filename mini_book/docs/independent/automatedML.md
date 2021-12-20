@@ -17,7 +17,7 @@ kernelspec:
 
 <br>
 
- In this blog post Ill explain automated machine learning (AutoML); and provide an example for a simple classificatino tasks using various common algorithms in a frequentist and bayesian setting
+ In this post Ill explain automated machine learning (AutoML); and provide an example for a simple classificatino tasks using various common algorithms in a frequentist and bayesian setting
 
 <br>
 

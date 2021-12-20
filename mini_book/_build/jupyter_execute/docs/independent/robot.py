@@ -9,7 +9,7 @@
 # 
 # <br>
 # 
-# In this blog post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
+# In this post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
 # <br>
 # 
 # 
