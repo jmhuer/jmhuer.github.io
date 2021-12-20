@@ -61,7 +61,7 @@ allowfullscreen
 ## A Better Robot Arm
 ---
 
-After the success of our earlier proof of concept, the team invested in a more sophisticated robotic arm. Following the success of this project, the group invested in more sophisticated robot arms, and I
+Following the success of this project, the group invested in more sophisticated robot arms, and I
 participated in creating experiences including, removing dishes from a dishwasher, making soup and
 pizza, and loading a laundry machine with clothes. Below we have a video of our dishwasher example
 
@@ -81,7 +81,7 @@ allowfullscreen
 ## A Robot from Scratch
 ---
 
-Several large companies have started to develop home robots as human assistants or companios. At the Emergin Tech group at GE we desgined a robot idea for sever indoor use cases. We worked closely with the FirstBuild Microfactory, a University of Louisville group funded by GE, to design a robot from scratch including selecting the motors, mounting and wiring batteries, and designing CAD frame with 80/20 t-slot materials that allow the user to attach different mechanisms for various applications. Additionally, a skid steer design allows for 360 turning inside the house in tight spaces and high payload capacity allows the robot to carry heavy weights without stalling torque. We add computer vision and load the drone to allow for collaboration
+Finally, we worked closely with the [FirstBuild Microfactory](https://duckduckgo.com), to design a robot from scratch including selecting the motors, mounting and wiring batteries, and designing CAD frame with 80/20 t-slot materials that allow the user to attach different mechanisms for various applications. Additionally, a skid steer design allows for 360 turning inside the house in tight spaces and high payload capacity allows the robot to carry heavy weights without stalling torque. We add computer vision and load the drone to allow for collaboration
 
 <br>
  <div align="center">
