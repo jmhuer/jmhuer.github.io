@@ -113,7 +113,7 @@ Data labeling for object detection/segmentation is expensive to acquire.  In thi
 
 <br>
 
- In this blog post we attempt to convert an audio excerpt from Twinkle Twinkle Little Star, played on the piano, into the corresponding MIDI file using genetic algorithm and show it performs better than a random search and a hill climber baseline....  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/audio2midi.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ In this post we attempt to convert an audio excerpt from Twinkle Twinkle Little Star, played on the piano, into the corresponding MIDI file using genetic algorithm and show it performs better than a random search and a hill climber baseline....  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/audio2midi.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 ---
 <br>
