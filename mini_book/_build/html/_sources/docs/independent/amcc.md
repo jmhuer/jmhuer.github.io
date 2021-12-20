@@ -43,6 +43,20 @@ The neural network model is an adaptation to the CBWM introduced by Mikolov et a
 ## Results
 ---
 
+### Comparisons input-output
+
+<br>
+ <div align="center">
+  <iframe width="560" height="315"
+src="https://www.youtube.com/embed/pbd3n9pevck"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+></iframe></div>
+
+<br>
+<br>
+
 
 ### Example 1 (Edvard Grieg)
 
