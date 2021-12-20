@@ -50,7 +50,26 @@ The simplest way to think about hyper parameter optimization is to randomly try 
 
 Another approach is to iterate through a list of possible configurations. This is know as grid search
 
+### Sklearn tools
 
+```
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
+from sklearn.model_selection import GridSearchCV
+from sklearn.svm import SVR
+
+# Instantiate a SVR model with standard scaler
+# Create pipeline 
+svr = make_pipeline(StandardScaler(), SVR(kernel='linear'))
+
+#Define parameter grid
+parameters = {'svr__kernel':['linear', 'rbf'], 'svr__epsilon':[0.1, 0.2, 0.3,0.6], 'svr__C': [0.1,0.5,1,2,3]}
+
+# Grid cross-validation object is ready
+svr = GridSearchCV(svr, parameters)
+
+
+```
 
 
 
