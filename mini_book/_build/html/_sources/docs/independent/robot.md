@@ -81,7 +81,7 @@ allowfullscreen
 ## A Robot from Scratch
 ---
 
-Finally, we worked closely with the [FirstBuild Microfactory](https://duckduckgo.com), to design a robot from scratch including selecting the motors, mounting and wiring batteries, and designing CAD frame with 80/20 t-slot materials that allow the user to attach different mechanisms for various applications. Additionally, a skid steer design allows for 360 turning inside the house in tight spaces and high payload capacity allows the robot to carry heavy weights without stalling torque. We add computer vision and load the drone to allow for collaboration
+Finally, we worked closely with the [FirstBuild Microfactory](https://firstbuild.com/), to design a robot from scratch including selecting the motors, mounting and wiring batteries, and designing CAD frame with 80/20 t-slot materials that allow the user to attach different mechanisms for various applications. Additionally, a skid steer design allows for 360 turning inside the house in tight spaces and high payload capacity allows the robot to carry heavy weights without stalling torque. We add computer vision and load the drone to allow for collaboration
 
 <br>
  <div align="center">
