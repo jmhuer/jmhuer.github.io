@@ -244,14 +244,14 @@
 <br>
 <p>In this post I will explore a few approaches and applications of sound classification. We use both a standard appraoch using spectrograms + CNNs and a more sophisticated approach using transformers on spectrogram patches. We are testing two different methods:</p>
 <ul class="simple">
-<li><p>Spectogram + CNN (pre-trained AlexNet). Here is the repository: https://github.com/jmhuer/specCNN_sound_classification</p></li>
-<li><p>Spectogram + Transformer (16x16 image patches). Here is the repository: https://github.com/jmhuer/spectogram_transformer</p></li>
+<li><p>Spectogram + CNN (pre-trained AlexNet). Here is the repository: <a class="reference external" href="https://github.com/jmhuer/specCNN_sound_classification">specCNN_sound_classification</a></p></li>
+<li><p>Spectogram + Transformer (16x16 image patches). Here is the repository: <a class="reference external" href="https://github.com/jmhuer/spectogram_transformer">spectogram_transformer</a></p></li>
 </ul>
 <br>
 <div class="section" id="activity-recognition-with-spectrogram-transformer">
 <h2>Activity Recognition with Spectrogram Transformer<a class="headerlink" href="#activity-recognition-with-spectrogram-transformer" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
-<p>In addition, we did a proof of concept of a system that can detect what kind of activities are going on in a room and change color of a light automatically</p>
+<p>First I built a system that can detect what kind of activities are going on in a room and change color of a light automatically. To achieve this, we pre-train on collection of AudioSet data, and fine-tune on data collected from my room. Each class has about 100 labeled examples of 3 second clips. Training accuracy 93%, validation accuracy is 89%</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
 src="https://www.youtube.com/embed/snkbodqne9o"
@@ -265,7 +265,7 @@ allowfullscreen
 <div class="section" id="laugh-detection-philips-hue-bulb">
 <h2>Laugh Detection + Philips Hue Bulb<a class="headerlink" href="#laugh-detection-philips-hue-bulb" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
-<p>Using AudioSet data we train a laugh detection sound classification and interpret the output for the laugh class as an intensity measure [0,1] to control the intensity of a philips hue bulb</p>
+<p>Using AudioSet data we train a laugh detection sound classification and interpret the output for the laugh class as an intensity measure [0,1] to control the intensity of a philips hue bulb <a class="reference external" href="https://github.com/topics/philips-hue-api">philips-hue-api</a></p>
 <br>
  <div align="center">   <iframe width="560" height="315"
 src="https://www.youtube.com/embed/bOG9VGZbTj8"
@@ -279,9 +279,8 @@ allowfullscreen
 <div class="section" id="service-diagnostics-running-ios-coreml">
 <h2>Service Diagnostics Running iOS CoreML<a class="headerlink" href="#service-diagnostics-running-ios-coreml" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
-<p>In addition, we did a proof of concept with the robot arm collaborating with a drone to
-deliver small food items to a nearby user
-There are many applications such as:</p>
+<p>Finally, we test anomaly sound classification. First, we collect labeled examples of the normal sound from a dryer and train a CNN-Autoencoder. During training we find the average latent-space code of the autoencoder training data; at inference time we measure distance from average-latent-space-code to inference–latent-space-code and accept or reject a sound according to a threshold. The threshold can be determined with different methods, we use the max distance of training code as a threshold.</p>
+<p>To explore applications, we implement this model on <a class="reference external" href="https://developer.apple.com/documentation/coreml">iOS CoreML</a> and run tests using an iPad.</p>
 <br>
  <div align="center">   <iframe width="560" height="315"
 src="https://www.youtube.com/embed/eoMQt4muwW4"
