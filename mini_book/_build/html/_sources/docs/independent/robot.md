@@ -38,6 +38,12 @@ allowfullscreen
 ></iframe></div>
 
 <br>
+
+The repositories used for this demostration can be found here:
+- [Robot-Arm-](https://github.com/srinithish/Robotic-Hand-)
+- [Comuter-vision-arm](https://github.com/srinithish/Smarttable)
+
+<br>
 <br>
 
 ## Add a Drone!
@@ -53,6 +59,10 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
 ></iframe></div>
+<br>
+
+The repositories used for this demostration can be found here:
+- [autonomous-drone](https://github.com/jmhuer/DJITelloAutonomy2)
 
 <br>
 <br>
@@ -73,6 +83,10 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
 ></iframe></div>
+
+<br>
+
+Unfortunately, this repositary is GE confidential property.
 
 <br>
 <br>

@@ -18,7 +18,7 @@
 # ## Introduction
 # ---
 # 
-# Music complexity can vary but trained and untrained lis- teners are still able to recognize the original music. In this paper, we first formulate the problem of varying music complexity and propose a method to preserve general harmonic structure and melody while vary- ing the number of notes. To do this, we find a compressed representation of pitch while simultaneously training on symbolic chord predictions. We test different pitch Autoencoders with various sparsity constraints, and evaluate our results by plotting chord recognition accuracy with increas- ing and decreasing number of notes, observations in relation to music theory, and by analysing absolute and relative musical features with a probabilistic framework.
+# Music complexity can vary but trained and untrained listeners are still able to recognize the original music. In this paper, we first formulate the problem of varying music complexity and propose a method to preserve general harmonic structure and melody while varying the number of notes. To do this, we find a compressed representation of pitch while simultaneously training on symbolic chord predictions. We test different pitch Autoencoders with various sparsity constraints, and evaluate our results by plotting chord recognition accuracy with increas- ing and decreasing number of notes, observations in relation to music theory, and by analysing absolute and relative musical features with a probabilistic framework.
 # 
 # 
 # 
