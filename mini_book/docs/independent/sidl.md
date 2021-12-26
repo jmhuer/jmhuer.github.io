@@ -38,7 +38,7 @@ There are many applications such as:
 ## Problem Defenition
 ---
 
-Shift-invariant dictionary learning (SIDL) refers to the problem of discovering a latent basis that captures local patterns at different locations of in- put signal, and a sparse coding for each sequence as a linear combination of these elements (Zheng et al., 2016) In previous works, various shift- invariant dictionary learning (SIDL) methods have been employed to discover local patterns that are embedded across a longer time series in sequential data such as audio signals (Grosse et al., 2007)
+Shift-invariant dictionary learning (SIDL) refers to the problem of discovering a latent basis that captures local patterns at different locations of input signal, and a sparse coding for each sequence as a linear combination of these elements. In previous works, various shift- invariant dictionary learning (SIDL) methods have been employed to discover local patterns that are embedded across a longer time series in sequential data such as audio signals.
 This has a similar formulation as DL except that in order to reconstruct the signal, we need to stride
 > **Dictionary Learning**:
 >
@@ -53,7 +53,7 @@ This has a similar formulation as DL except that in order to reconstruct the sig
 ## How do we solve this problem?
 ---
 
-In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE onpitch vector reconstruction and Cross Entropy on symbolic chord targets. Thereconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality
+In order to reconstruct pitch vectors with the extra criteria of maintaining the original chord/harmonic functionality, we propose a combined loss of MSE on pitch vector reconstruction and Cross Entropy on symbolic chord targets. The reconstruction should be such that we do not lose the ability to map the original chords but the information bottleneck serves to generalize pitch functionality
 
 
 ## Results
