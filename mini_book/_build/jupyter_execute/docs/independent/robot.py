@@ -9,15 +9,21 @@
 # 
 # <br>
 # 
-# In this post I share my experience and a few applications of robots and drones for the indoor enviroment. I cover some of the steps required, and provide access to computer vision, and control software. Applications include robot arm and drone with computer vision deliver food to nearby user, robot loads a dishwasher, and robots following humans.
+# In this post I share my experience and a few applications of robots and drones for the indoor environment. I cover some of the steps required, and provide access to computer vision, and control software. Theres a few different projects presented here, but in summary we are after applications such as:
+# - Senior Care
+# - Home Assistance
+# - Security Systems
+# - Enchanted home appliances applications:
+#   - Drone signal routers
+#   - Food recognition with drones cameras
+# 
 # <br>
 # 
 # 
 # ## A Simple Robot Arm
 # ---
 # 
-# I worked directly on robotics in the
-# Emerging Technologies and Innovation group at GE. First we designed a few experiences using a simple
+# In the Emerging Technologies and Innovation group at GE, we designed a few experiences using a simple
 # robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
 # for food items.
 # 
