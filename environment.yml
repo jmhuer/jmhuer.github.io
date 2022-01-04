@@ -9,4 +9,6 @@ dependencies:
   - matplotlib
   - pip:
     - quantecon
-    - jupyter-book
+    - jupyter-book=0.9.1
+    - sphinx-book-theme=0.0.39
+

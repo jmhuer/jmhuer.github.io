@@ -37,7 +37,7 @@ In this post I share my experience and a few applications of robots and drones f
 
 <br>
 
-The temporal structure of music is full of shift-invariant patterns (e.g. motifs, ostinatos, loops, etc.). We propose using a Tempo- ral Convolutional Winner-Take-All (CONV- WTA) autoencoder to find a shift-invariant dictionary to represent symbolic, multivariate, musical signals. The model learns to represent fixed length drum beats and variable length pi- ano music. We discuss applications of this sparse representation such as de-noising musical ideas, unsupervised learning of composer styles, and music generation. To assist in re- lated work we include interactive code along with the trained models...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/sidl.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+The temporal structure of music is full of shift-invariant patterns (e.g. motifs, ostinatos, loops, etc.). We propose using a Temporal Convolutional Winner-Take-All (CONV- WTA) autoencoder to find a shift-invariant dictionary to represent symbolic, multivariate, musical signals. The model learns to represent fixed length drum beats and variable length piano music. We discuss applications of this sparse representation such as de-noising musical ideas, unsupervised learning of composer styles, and music generation. To assist in related work we include interactive code along with the trained models...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/sidl.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 ---
 <br>
