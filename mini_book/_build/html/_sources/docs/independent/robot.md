@@ -91,10 +91,6 @@ allowfullscreen
 ></iframe></div>
 
 <br>
-
-Unfortunately, this repositary is GE confidential property.
-
-<br>
 <br>
 
 
