@@ -41,16 +41,20 @@ AutoML is viewed as about algorithm selection, hyperparameter tuning of models, 
 ## Random Search
 ---
 
-The simplest way to think about hyper parameter optimization is to randomly try different combinations and pick the best setting
+The simplest way to think about hyper parameter optimization is to randomly try different combinations and pick the best setting. A random search finds better models by effectively searching a larger, less promising configuration space, but considering the combinatorics, this is obviously not sutable as our only strategy. 
 
 <br>
 
 ## Grid Search
 ---
 
-Another approach is to iterate through a list of possible configurations. This is know as grid search
+Another approach is to iterate through a list of possible configurations, possibly near a standard hyperparameters used in other examples, or using some heuristics. This is know as grid search. If you have a problem that is similar to a high permiming example, I would recommend using grid search. If you have no idea, you can use random search for a broad serach, and grid serach for tunning. 
 
 ### Sklearn tools
+---
+
+Below is a simple example on how to generate a GridSearchCV object using Sklearn Library. Note the "CV" stands for CrossValidation, since each Grid configuration is tested in a cross-validated comparison. GridSearchCV implements a “fit” and a “score” method. It also implements “score_samples”, “predict”, “predict_proba”, “decision_function”, “transform” and “inverse_transform” if they are implemented in the estimator used. For more information read the docs: [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) 
+
 
 ```
 from sklearn.preprocessing import StandardScaler
