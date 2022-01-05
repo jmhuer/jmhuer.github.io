@@ -17,7 +17,7 @@ In this post I share my experience and a few applications of robots and drones f
 <br>
 
 
-## A Simple Robot Arm
+## Custumizing Robotic xArm 6DOF
 ---
 
 In the Emerging Technologies and Innovation group at GE, we designed a few experiences using a simple
@@ -41,7 +41,7 @@ The repositories used for this demostration can be found here:
 <br>
 <br>
 
-## Add a Drone!
+## Collaboration with Parrot Mambo
 ---
 
 In addition, we did a proof of concept with the robot arm collaborating with a drone to
@@ -63,7 +63,7 @@ The repositories used for this demostration can be found here:
 <br>
 
 
-## A Better Robot Arm
+## UFACTORY xArm 7
 ---
 
 Following the success of this project, the group invested in more sophisticated robot arms, and I
@@ -87,7 +87,7 @@ Unfortunately, this repositary is GE confidential property.
 <br>
 
 
-## A Robot from Scratch
+## Home Assistant Robot
 ---
 
 Finally, we worked closely with the [FirstBuild Microfactory](https://firstbuild.com/), to design a robot from scratch including selecting the motors, mounting and wiring batteries, and designing CAD frame with 80/20 t-slot materials that allow the user to attach different mechanisms for various applications. Additionally, a skid steer design allows for 360 turning inside the house in tight spaces and high payload capacity allows the robot to carry heavy weights without stalling torque. We add computer vision and load the drone to allow for collaboration
