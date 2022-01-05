@@ -250,7 +250,7 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/thermal.png" align="center" />
 <br>
-<p>Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest.</p>
+<p>Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.</p>
 <br>
 </div>
 <div class="section" id="introduction">
@@ -277,15 +277,15 @@
 <h1>Method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <p>The method consists of the following steps.</p>
-<p>Step 1: Find placement for thermal/RGB camera</p>
+<p><strong>Step 1</strong>: Find placement for thermal/RGB camera</p>
 <ul class="simple">
 <li><p>In the following slides we show two examples: handheld &amp; above stovetop</p></li>
 </ul>
-<p>Step 2: Specify expected temperature of item of interest</p>
+<p><strong>Step 2</strong>: Specify expected temperature of item of interest</p>
 <ul class="simple">
 <li><p>For example: 10C &lt; temp &gt; 30C  or temp &gt; 30C) and classes name</p></li>
 </ul>
-<p>Step 3: Run</p>
+<p><strong>Step 3</strong>: Run</p>
 <ul class="simple">
 <li><p>Apply thermal image postprocessing to obtain localization of objects</p></li>
 <li><p>Store RGB image and annotated data</p></li>

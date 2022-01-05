@@ -6,7 +6,7 @@
 
 <br>
 
-Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest.
+Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.
 
 <br>
 
@@ -41,13 +41,13 @@ You will need a Flir camera specifically since it is crucial to be able to take 
 
 The method consists of the following steps.
 
-Step 1: Find placement for thermal/RGB camera
+**Step 1**: Find placement for thermal/RGB camera
 - In the following slides we show two examples: handheld & above stovetop
 
-Step 2: Specify expected temperature of item of interest
+**Step 2**: Specify expected temperature of item of interest
 - For example: 10C < temp > 30C  or temp > 30C) and classes name
 
-Step 3: Run
+**Step 3**: Run
 - Apply thermal image postprocessing to obtain localization of objects
 - Store RGB image and annotated data
 

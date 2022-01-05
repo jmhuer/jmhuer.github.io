@@ -8,7 +8,7 @@
 
 <br>
 
- In this post we define the task of varying the harmonic complexity of music automatically along with a baseline method in accordance to music theory. In addition, we propose metrics for evaluation. Experiment to show that our proposed method outperforms other baseline methods... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ (In Progress) In this post we showcase some results, of a new method tasked with varying the harmonies (or ornaments) of piano music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
@@ -68,7 +68,7 @@ The temporal structure of music is full of shift-invariant patterns (e.g. motifs
 
 <br>
 
-Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques.We can create mask or ROI annotations depending on annotations of interest...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/thermal.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest...  <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/thermal.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---
