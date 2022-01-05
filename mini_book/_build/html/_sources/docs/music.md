@@ -1,6 +1,6 @@
 # Music
 
-Below you can find some of my music
+External Pages:
 
 -  📺 [Youtube Channel](https://www.youtube.com/channel/UC28HixRrIwMU7Wc4R_sUouA/videos)
 
