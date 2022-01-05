@@ -58,7 +58,9 @@ Below we have some randomly selected examples using a validation set:
 ## Classifying smoky images
 ---
 
-Pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from [smoke-detection-repository](https://github.com/imsaksham-c/Fire-Smoke-Detection) .
+The point of generating smoke synthetic images is to avoid having to collect them in real life. This can be dangerous and expensive. Once we have the technology to add smoke to images, we use the images to train a classifier. If the synthetic data truly reflects the real world data, this classifier should be able to detect smoke in the real world. We use a pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from [smoke-detection-repository](https://github.com/imsaksham-c/Fire-Smoke-Detection).
+
+To evaluate performance, we convert 500 food images with a camera above a stovetop and split 80/20 training and validation. Our validation performance scores ~96%. 
 
 
 

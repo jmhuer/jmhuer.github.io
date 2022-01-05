@@ -30,7 +30,8 @@ This technique can only be used in specific use cases where objects of interest 
 - Stove top cooking, ovens, or cooking in general
 - Items that can be cooled before collecting data
 
-Here is the code used: https://github.com/jmhuer/mask_from_thermal_image
+Here is the code used: [Auto-label](https://github.com/jmhuer/mask_from_thermal_image)
+
 
 You will need a Flir camera specifically since it is crucial to be able to take an image with both RGB and Thermal sensors and calibrate overlay between the two images.
 

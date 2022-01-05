@@ -276,7 +276,8 @@
 <div class="section" id="classifying-smoky-images">
 <h1>Classifying smoky images<a class="headerlink" href="#classifying-smoky-images" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>Pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from <a class="reference external" href="https://github.com/imsaksham-c/Fire-Smoke-Detection">smoke-detection-repository</a> .</p>
+<p>The point of generating smoke synthetic images is to avoid having to collect them in real life. This can be dangerous and expensive. Once we have the technology to add smoke to images, we use the images to train a classifier. If the synthetic data truly reflects the real world data, this classifier should be able to detect smoke in the real world. We use a pretrained Resnet-50 model is used to classify the smoky images from the non-smoky ones. It can be found in the Fire-Smoke-Detection folder, adapted from <a class="reference external" href="https://github.com/imsaksham-c/Fire-Smoke-Detection">smoke-detection-repository</a>.</p>
+<p>To evaluate performance, we convert 500 food images with a camera above a stovetop and split 80/20 training and validation. Our validation performance scores ~96%.</p>
 </div>
 
     <script type="text/x-thebe-config">
