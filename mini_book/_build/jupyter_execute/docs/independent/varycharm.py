@@ -6,7 +6,7 @@
 
 <br>
 
- (In Progress) In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods. I do no discuss the details of the method/implementation since this work is still in progress.
+ **(In Progress)** In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline based on music theory. I do no discuss the details of the method/implementation since this work is still in progress.
 
 
 <br>
@@ -24,7 +24,7 @@ Music complexity can vary but trained and untrained listeners are still able to 
 ---
 
 
-It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original "feeling" of music. In math we write:
+Automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original "feeling" of music. In math we write:
 > **The Problem of Varying Harmonic Information**:
 >
 >We denote Symbolic music information as piano rools where the input is information with a fixed history length $H$ as a matrix $X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}$. For simplicity, we denote $\mathcal{X} = \{0,1\}^{P \times H}$ as the input space.
@@ -43,7 +43,7 @@ It is clear automatically varying the complexity of music has valuable applicati
 ---
 
 
-In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE on pitch vector reconstruction and Cross Entropy on symbolic chord targets. The reconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality
+*Omitted until this work is published... Check back in a few weeks* 
 
 
 
@@ -140,4 +140,6 @@ Your browser does not support the audio element.
 
 ---
 ## Conclusion
-Our results indicate the end-to-end autoencoder-BiLSTM Lifetime method outperforms a simple music theory baseline, and a regular auto encoder according to the metrics discussed. The current method does have a few limi- tations. Namely we are compressing pitch information and most of the added embellishments are added vertically and depend on build on the existing rhythm. However, we believe this method and evaluation scheme provides some ground work for exploring rhythmic components to potentially be extended.
+ Empirically our results show we can add or remove notes to existing MIDI music without supervision (or labeled examples). In addition, we can add notes using other intruments for arrangment generation. A more indepth discussion, and evaluation metrics will be added when the full work is presented. 
+
+<!-- Our results indicate the end-to-end autoencoder-BiLSTM Lifetime method outperforms a simple music theory baseline, and a regular auto encoder according to the metrics discussed. The current method does have a few limi- tations. Namely we are compressing pitch information and most of the added embellishments are added vertically and depend on build on the existing rhythm. However, we believe this method and evaluation scheme provides some ground work for exploring rhythmic components to potentially be extended. -->

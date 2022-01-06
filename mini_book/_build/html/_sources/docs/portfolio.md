@@ -8,7 +8,7 @@
 
 <br>
 
- (In Progress) In this post we showcase some results, of a new method tasked with varying the harmonies (or ornaments) of piano music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
+ **(In Progress)** In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods. I do no discuss the details of the method/implementation since this work is still in progress... <sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/independent/varycharm.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">Learn more</a> </sub>
 
 
 ---

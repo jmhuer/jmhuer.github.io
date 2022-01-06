@@ -269,7 +269,7 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/varycharm.png" align="center"/>
 <br>
-<p>(In Progress) In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods. I do no discuss the details of the method/implementation since this work is still in progress.</p>
+<p><strong>(In Progress)</strong> In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline based on music theory. I do no discuss the details of the method/implementation since this work is still in progress.</p>
 <br>
 </div>
 <div class="section" id="introduction">
@@ -280,7 +280,7 @@
 <div class="section" id="problem-defenition">
 <h1>Problem Defenition<a class="headerlink" href="#problem-defenition" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>It is clear automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original “feeling” of music. In math we write:</p>
+<p>Automatically varying the complexity of music has valuable applications. But how do we approach this problem without supervision? In words, we want to add or remove notes without diverging too much from the original “feeling” of music. In math we write:</p>
 <blockquote>
 <div><p><strong>The Problem of Varying Harmonic Information</strong>:</p>
 <p>We denote Symbolic music information as piano rools where the input is information with a fixed history length <span class="math notranslate nohighlight">\(H\)</span> as a matrix <span class="math notranslate nohighlight">\(X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}\)</span>. For simplicity, we denote <span class="math notranslate nohighlight">\(\mathcal{X} = \{0,1\}^{P \times H}\)</span> as the input space.</p>
@@ -292,7 +292,7 @@
 <div class="section" id="how-do-we-solve-this-problem">
 <h1>How do we solve this problem?<a class="headerlink" href="#how-do-we-solve-this-problem" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>In order to reconstruct pitch vectors with the extra criteria of maintaining theoriginal chord/harmonic functionality, we propose a combined loss of MSE on pitch vector reconstruction and Cross Entropy on symbolic chord targets. The reconstruction should be such that we do not lose the ability to map the originalchords but the information bottleneck serves to generalize pitch functionality</p>
+<p><em>Omitted until this work is published… Check back in a few weeks</em></p>
 </div>
 <div class="section" id="results">
 <h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
@@ -384,8 +384,8 @@ Your browser does not support the audio element.
 </div>
 <div class="section" id="conclusion">
 <h1>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h1>
-<p>Our results indicate the end-to-end autoencoder-BiLSTM Lifetime method outperforms a simple music theory baseline, and a regular auto encoder according to the metrics discussed. The current method does have a few limi- tations. Namely we are compressing pitch information and most of the added embellishments are added vertically and depend on build on the existing rhythm. However, we believe this method and evaluation scheme provides some ground work for exploring rhythmic components to potentially be extended.</p>
-</div>
+<p>Empirically our results show we can add or remove notes to existing MIDI music without supervision (or labeled examples). In addition, we can add notes using other intruments for arrangment generation. A more indepth discussion, and evaluation metrics will be added when the full work is presented.</p>
+<!-- Our results indicate the end-to-end autoencoder-BiLSTM Lifetime method outperforms a simple music theory baseline, and a regular auto encoder according to the metrics discussed. The current method does have a few limi- tations. Namely we are compressing pitch information and most of the added embellishments are added vertically and depend on build on the existing rhythm. However, we believe this method and evaluation scheme provides some ground work for exploring rhythmic components to potentially be extended. --></div>
 
     <script type="text/x-thebe-config">
     {
