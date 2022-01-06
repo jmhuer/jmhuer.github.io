@@ -19,6 +19,7 @@ There are many popular dataset for computer vision, but for custom objects one m
 <img src="../../../../images/labelex.gif" width="80%" align="center"/>
 
 <br>
+<br>
 
 In this post I propose a new method that can be applied in two ways:
 - To speed up objects labeling process to train supervised computer vision models
@@ -46,7 +47,7 @@ The method consists of the following steps.
 - It is possible to skip this step and take handheld images however you will need to be careful with your calibration. 
 
 **Step 2**: Specify expected temperature of item of interest
-- For example: 10C < temp > 30C  or temp > 30C) and classes name
+- For example: *10**C** < temp > 30**C** or temp > 30**C*** and classes name
 
 **Step 3**: Run
 - Apply thermal image postprocessing: *Bucket fill -> K-means -> Find contour*, to obtain localization of objects. 
