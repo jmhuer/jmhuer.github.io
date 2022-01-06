@@ -306,6 +306,19 @@ This has a similar formulation as DL except that in order to reconstruct the sig
 <div class="section" id="interpolating-drum-data">
 <h3>Interpolating Drum Data<a class="headerlink" href="#interpolating-drum-data" title="Permalink to this headline">¶</a></h3>
 <p>One way of generating new music is to interpolate latent space. There are various ways of doing this, but in essence you can think about a convex convination between n examples. For our example we simply average sparse code between two examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Original 1</span>
+<span class="n">input1</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">raw_input</span><span class="p">],</span> <span class="n">axis</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">code1</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">input1</span><span class="p">)</span>
+
+<span class="c1">#Original 2</span>
+<span class="n">input2</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">raw_input2</span> <span class="p">],</span> <span class="n">axis</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">code2</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">input2</span><span class="p">)</span>
+
+<span class="c1"># Interpolated Result</span>
+<span class="n">new_code1</span><span class="p">,</span> <span class="n">new_code2</span>  <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">code1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">code2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+</pre></div>
+</div>
 <p><strong>Original 1</strong></p>
 <audio controls>
   <source src="../../../../audio/sidl1.wav" type="audio/wav">

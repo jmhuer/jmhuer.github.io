@@ -59,6 +59,21 @@ Below, are some of the results. To verify we have a good representation we can p
 
 One way of generating new music is to interpolate latent space. There are various ways of doing this, but in essence you can think about a convex convination between n examples. For our example we simply average sparse code between two examples:
 
+```
+#Original 1
+input1 = torch.cat([raw_input], axis=-1)
+code1 = get_code(model, input1)
+
+#Original 2
+input2 = torch.cat([raw_input2 ], axis=-1)
+code2 = get_code(model, input2)
+
+# Interpolated Result
+new_code1, new_code2  = 0.5*code1[0] + 0.5*code2[0]
+
+```
+
+
 
 **Original 1**
 
