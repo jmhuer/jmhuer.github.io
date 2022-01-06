@@ -32,7 +32,7 @@ In this post I share my experience and a few applications of robots and drones f
 ---
 
 In the Emerging Technologies and Innovation group at GE, we designed a few experiences using a simple
-robot arm (Robotic xArm 6DOF). We added a camera and computer vision to allow the arm to reach
+robot arm (Robotic xArm 6DOF). For instance, we added a camera and computer vision to allow the arm to reach
 for food items.
 
 <br>
