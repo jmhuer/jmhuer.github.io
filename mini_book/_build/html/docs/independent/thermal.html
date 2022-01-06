@@ -225,13 +225,18 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#regular-objects-heated-up">
-   Regular Objects Heated up
+  <a class="reference internal nav-link" href="#cooling-down-objects">
+   Cooling Down Objects
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#humans-or-animals">
    Humans or Animals
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
   </a>
  </li>
 </ul>
@@ -250,36 +255,37 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/thermal.png" align="center" />
 <br>
-<p>Data labeling for object detection/segmentation is expensive to acquire.  In this blog post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.</p>
+<p>Data labeling for object detection/segmentation is expensive to acquire.  In this post we show we can sped up this proesses of labeling data for certain objects using a thermal camera, and standard computer vision techniques. We can create mask or ROI annotations depending on annotations of interest.</p>
 <br>
 </div>
 <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>There are various popular dataset but for costume objects one has to take images and manually label the example as shown in the image below</p>
+<p>There are many popular dataset for computer vision, but for custom objects one might be required to collect and label data manually. For example, see below:</p>
 <img src="../../../../images/labelex.gif" width="80%" align="center"/>
 <br>
-<p>This technique can be applied two ways:</p>
+<p>In this post I propose a new method that can be applied in two ways:</p>
 <ul class="simple">
-<li><p>To speed up data collection process to train supervised computer vision models</p></li>
-<li><p>To be used for object localization in combination with a classification model, to achieve segmentation or object detection task</p></li>
+<li><p>To speed up objects labeling process to train supervised computer vision models</p></li>
+<li><p>For object localization in combination with a classification model, for a hybrid object detection approach. This can be useful in certain cases were you have a fixed camera, for example: refrigerator cameras, parking lot cameras, security cameras, etc.</p></li>
 </ul>
-<p>This technique can only be used in specific use cases where objects of interest have a noticeable temperature difference. Such as:</p>
+<p>We have some requirements for when this method can be used. Primarily, we require a specific setting where the objects of interest have a noticeable temperature difference. Such as:</p>
 <ul class="simple">
 <li><p>Living things</p></li>
 <li><p>Stove top cooking, ovens, or cooking in general</p></li>
 <li><p>Items that can be cooled before collecting data</p></li>
 </ul>
 <p>Here is the code used: <a class="reference external" href="https://github.com/jmhuer/mask_from_thermal_image">Auto-label</a></p>
-<p>You will need a Flir camera specifically since it is crucial to be able to take an image with both RGB and Thermal sensors and calibrate overlay between the two images.</p>
+<p>You will need a <a class="reference external" href="https://www.amazon.com/FLIR-ONE-Pro-Professional-Smartphones/dp/B072J49BX7/ref=sr_1_3?keywords=FLIR%2BInfrared%2BCamera&amp;qid=1641504646&amp;sr=8-3&amp;th=1">Flir-camera</a> specifically since it is crucial to be able to take an image with both RGB and Thermal sensors and calibrate overlay between the two images.</p>
+<br>
 </div>
 <div class="section" id="method">
 <h1>Method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <p>The method consists of the following steps.</p>
-<p><strong>Step 1</strong>: Find placement for thermal/RGB camera</p>
+<p><strong>Step 1</strong>: Fix the Flir thermal/RGB camera</p>
 <ul class="simple">
-<li><p>In the following slides we show two examples: handheld &amp; above stovetop</p></li>
+<li><p>It is possible to skip this step and take handheld images however you will need to be careful with your calibration.</p></li>
 </ul>
 <p><strong>Step 2</strong>: Specify expected temperature of item of interest</p>
 <ul class="simple">
@@ -287,24 +293,26 @@
 </ul>
 <p><strong>Step 3</strong>: Run</p>
 <ul class="simple">
-<li><p>Apply thermal image postprocessing to obtain localization of objects</p></li>
-<li><p>Store RGB image and annotated data</p></li>
+<li><p>Apply thermal image postprocessing: <em>Bucket fill -&gt; K-means -&gt; Find contour</em>, to obtain localization of objects.</p></li>
+<li><p>Extract RGB image using python</p></li>
+<li><p>Store RGB image and labeled image in desired format: ROI or PNG Mask</p></li>
 </ul>
-<p>Our postprocessing is as follows: Bucket fill -&gt;
-K-means -&gt; Find contour</p>
+<br>
 </div>
 <div class="section" id="stove-top-examples">
 <h1>Stove Top Examples<a class="headerlink" href="#stove-top-examples" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>Here we have an example applying our proposed method on food being cooked. This setting provides us a very natural temperature differential since the pan is almost always hotter than the food. Of course there are exceptions but this method is not meant to sutable for all settings, otherwise we wouldnt need ai :D</p>
+<p>Here we have an example applying our proposed method on food being cooked. This setting provides us a very natural temperature differential since the pan is almost always hotter than the food. Of course there are exceptions but this method is not meant to sutable for all settings, otherwise we wouldnt need any neural nets!</p>
 <img src="../../../../images/thermalfood.png" align="center"/>
 <br>
+<br>
 </div>
-<div class="section" id="regular-objects-heated-up">
-<h1>Regular Objects Heated up<a class="headerlink" href="#regular-objects-heated-up" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cooling-down-objects">
+<h1>Cooling Down Objects<a class="headerlink" href="#cooling-down-objects" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <p>Here we have an example applying our proposed method on items that were left in the fridge for a few min. This creates the necessary temperature differential:</p>
 <img src="../../../../images/thermalwarm.png" align="center"/>
+<br>
 <br>
 </div>
 <div class="section" id="humans-or-animals">
@@ -312,6 +320,14 @@ K-means -&gt; Find contour</p>
 <hr class="docutils" />
 <p>Finally mammals usually have a body temperature higher than the surroundings. In these settings our method can be applied naturally</p>
 <img src="../../../../images/thermal.png" align="center" />
+<br>
+<br>
+</div>
+<div class="section" id="conclusion">
+<h1>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<p>Altough these are just a few examples you can use the code to test and try new settings. Applying what we have shown here can save you many hours of labeling data, or help enchace certain computer vision systems!</p>
+<br>
 <br></div>
 
     <script type="text/x-thebe-config">
