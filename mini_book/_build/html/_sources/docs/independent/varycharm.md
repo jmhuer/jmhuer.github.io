@@ -17,7 +17,7 @@ kernelspec:
 
 <br>
 
- (In Progress) In this post we showcase some results, of a new method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods.
+ (In Progress) In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods. I do no discuss the details of the method/implementation since this work is still in progress.
 
 
 <br>
@@ -42,7 +42,7 @@ It is clear automatically varying the complexity of music has valuable applicati
 >
 >Then the goal is to learn a mapping $f_\theta(X_t \mid \eta) \rightarrow \hat{X}_t \in \mathcal{X}$ parameterized by $\theta$ such that $\hat{X}_t$ summarizes (or further ornament) the original piece of music $X_t$, given a hyper-parameter $\eta \in [0,1]$ that controls the sparsity level of $\hat{X}_t$. More specifically, we consider the following optimization:
 >
->$$  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t \mid \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t \mid \eta)||_0 \leq \eta HP.$$
+>$$  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t \mid \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t \mid \eta)||_0 = \eta HP.$$
 >
 
 

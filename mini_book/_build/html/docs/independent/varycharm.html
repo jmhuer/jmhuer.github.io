@@ -269,7 +269,7 @@
 <p><sub> <a href="https://jmhuer.github.io/mini_book/_build/html/docs/portfolio.html" style="color: red; text-decoration: underline;text-decoration-style: dotted;">← Back to Projects</a> </sub></p>
 <img src="../../../../images/varycharm.png" align="center"/>
 <br>
-<p>(In Progress) In this post we showcase some results, of a new method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods.</p>
+<p>(In Progress) In this post we showcase some results, of a new deep learning method tasked with varying the harmonic complexity of music automatically. In addition, we propose some metrics for evaluation, and design a few baseline methods. I do no discuss the details of the method/implementation since this work is still in progress.</p>
 <br>
 </div>
 <div class="section" id="introduction">
@@ -286,7 +286,7 @@
 <p>We denote Symbolic music information as piano rools where the input is information with a fixed history length <span class="math notranslate nohighlight">\(H\)</span> as a matrix <span class="math notranslate nohighlight">\(X_t \triangleq x_{t-H:t} \in \{0,1\}^{P \times H}\)</span>. For simplicity, we denote <span class="math notranslate nohighlight">\(\mathcal{X} = \{0,1\}^{P \times H}\)</span> as the input space.</p>
 <p>Then the goal is to learn a mapping <span class="math notranslate nohighlight">\(f_\theta(X_t \mid \eta) \rightarrow \hat{X}_t \in \mathcal{X}\)</span> parameterized by <span class="math notranslate nohighlight">\(\theta\)</span> such that <span class="math notranslate nohighlight">\(\hat{X}_t\)</span> summarizes (or further ornament) the original piece of music <span class="math notranslate nohighlight">\(X_t\)</span>, given a hyper-parameter <span class="math notranslate nohighlight">\(\eta \in [0,1]\)</span> that controls the sparsity level of <span class="math notranslate nohighlight">\(\hat{X}_t\)</span>. More specifically, we consider the following optimization:</p>
 <div class="math notranslate nohighlight">
-\[  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t \mid \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t \mid \eta)||_0 \leq \eta HP.\]</div>
+\[  \min_{\theta} \mathcal{D}\bigg(f_\theta(X_t \mid \eta),~X_t\bigg) ~~\text{s.t.}~~||f_\theta(X_t \mid \eta)||_0 = \eta HP.\]</div>
 </div></blockquote>
 </div>
 <div class="section" id="how-do-we-solve-this-problem">
