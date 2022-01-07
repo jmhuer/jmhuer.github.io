@@ -234,6 +234,11 @@
    Performance Curve
   </a>
  </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
 </ul>
 
         </nav>
@@ -333,7 +338,7 @@ In the search for a more intelligent algorithm to convert from audio to midi a G
 <div class="section" id="performance-curve">
 <h1>Performance Curve<a class="headerlink" href="#performance-curve" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>Finally our results can be summarized by the plot below</p>
+<p>Finally our results can be summarized by the plot below. This took 2 days to run on my personal computer (Macbook 2017 - 13’) to run</p>
 <img src="../../../../images/ga_performance.png" width="90%" align="center"/>
 <p>And below is our best fitness individual and the original twinkle twinkle little star audio</p>
 <p><strong>Original</strong></p>
@@ -347,7 +352,13 @@ Your browser does not support the audio element.
   <source src="../../../../audio/a.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio><br>
-<br></div>
+<br>
+</div>
+<div class="section" id="conclusion">
+<h1>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<p>In summary, a simple evolutionary algorithm can do <em>OK</em> at discovering symbolic music from a given audio clip. The solution discovered is not perfect and the ammount of computation required is substantial for a monophonic 10 second music. In the future I plan to incorporate some ways of parametrizing the evolutionary algorithm hyperparameters and using deep learning embeddings as part of the recombination strategy.</p>
+</div>
 
     <script type="text/x-thebe-config">
     {

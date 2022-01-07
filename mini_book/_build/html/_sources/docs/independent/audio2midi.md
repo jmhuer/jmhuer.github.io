@@ -84,7 +84,7 @@ The mutations were decided to be as follows:
 ## Performance Curve
 ---
 
-Finally our results can be summarized by the plot below
+Finally our results can be summarized by the plot below. This took 2 days to run on my personal computer (Macbook 2017 - 13') to run
 
 <img src="../../../../images/ga_performance.png" width="90%" align="center"/>
 
@@ -108,7 +108,9 @@ Your browser does not support the audio element.
 <br>
 
 
+## Conclusion
+---
 
-
+In summary, a simple evolutionary algorithm can do *OK* at discovering symbolic music from a given audio clip. The solution discovered is not perfect and the ammount of computation required is substantial for a monophonic 10 second music. In the future I plan to incorporate some ways of parametrizing the evolutionary algorithm hyperparameters and using deep learning embeddings as part of the recombination strategy. 
 
 
