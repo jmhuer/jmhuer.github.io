@@ -75,8 +75,9 @@ svr = GridSearchCV(svr, parameters)
 
 ```
 
+A full AutoML classification example, with model and hyperparameter automation (using RandomSerachCV + GridSearcCV), can be fund here: [AutoML](https://github.com/jmhuer/quantum_dots)
 
-
+The above example is using the 20 newsgroups text dataset, and runs on a jupyter notebook. 
 
 
 
