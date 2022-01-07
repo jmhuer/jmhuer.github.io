@@ -24,7 +24,7 @@ kernelspec:
 ## Introduction
 ---
 
-MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted  performance, and improvisational composition. It is scheme of great value to the development of modern music. [2]. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance.
+MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted  performance, and improvisational composition. It is scheme of great value to the development of modern music. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance.
 In the search for a more intelligent algorithm to convert from audio to midi a Genetic Algorithm will be used. A Genetic Algorithm, is a bio-inspired, optimization mechanism that can be used very generally. The simple task of converting an audio excerpt of Twinkle Twinkle Little Star into its corresponding MIDI representation will be attempted. The MIDI generated will be limited to only piano sounds.Keep in mind that although there is little novelty in this transcription, the hope is that further developments on the genetic algorithm will eventually outperform the current day pitch detection approaches to audio to midi conversion.
 
 
@@ -41,23 +41,52 @@ Below we have an illustration of how we represent individual solutions. To do th
 ## Generating Initial Population
 ---
 
-To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules
+To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules:
 
-<img src="../../../../images/table_init.png" width="75%" align="center"/>
+<br>
+
+| Note Feature| Method  |
+| --- | --- |
+| Pitch | Normal Distribution, mean 60, std 5 |
+| Start Time | Uniform Distribution, Low = 0 ; High = end_music_time |
+| End Time | Start time + length of note. Length of note sampled from Normal mean 0.2 sec; std 0.05 sec |
+| Velocity | Constant: 98|
+| Number of Notes | Constant: 50 |
+
+
+
+
+
+<!-- <img src="../../../../images/table_init.png" width="75%" align="center"/> -->
 
 
 ## Mutuations
+---
 
-The mutations were decided to be as follows
+The mutations were decided to be as follows:
 
-<img src="../../../../images/mutations.png" width="100%" align="center"/>
+<br>
+
+| Mutation | Description  |
+| --- | --- |
+| Mutation Length of Note | Normal Distribution, mean 60, std 5 |
+| Mutation Start Time of Note | Uniform Distribution, Low = 0 ; High = end_music_time |
+| Mutation Stop Time of Note | Start time + length of note. Length of note sampled from Normal mean 0.5 sec; std 0.1 sec |
+| Add Random Note | Constant: 98|
+| Delete Random Note | Normal Distribution, mean 60, std 5 |
+
+
+<!-- 
+
+<img src="../../../../images/mutations.png" width="100%" align="center"/> -->
 
 
 ## Performance Curve
+---
 
 Finally our results can be summarized by the plot below
 
-<img src="../../../../images/ga_performance.png" width="75%" align="center"/>
+<img src="../../../../images/ga_performance.png" width="90%" align="center"/>
 
 
 And below is our best fitness individual and the original twinkle twinkle little star audio

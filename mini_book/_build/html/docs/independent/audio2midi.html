@@ -256,7 +256,7 @@
 <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted  performance, and improvisational composition. It is scheme of great value to the development of modern music. [2]. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance.
+<p>MIDI (Music Instrument Digital Interface) is the industry standard communication scheme for digital music devices. Although MIDI does not provide a perfect representation of human music, it provides tools that can be helpful to the study of performance practice, computer assisted  performance, and improvisational composition. It is scheme of great value to the development of modern music. That being said, the development of an accurate Audio-to-Midi converted is commonly sought-after. Usual approaches to this task involve some sort of pitch detection mechanism. The list of algorithms developed to do this is extensive, yet due to the astonishing complexity and variety of musical sound, none of these can be used comfortably without human assistance.
 In the search for a more intelligent algorithm to convert from audio to midi a Genetic Algorithm will be used. A Genetic Algorithm, is a bio-inspired, optimization mechanism that can be used very generally. The simple task of converting an audio excerpt of Twinkle Twinkle Little Star into its corresponding MIDI representation will be attempted. The MIDI generated will be limited to only piano sounds.Keep in mind that although there is little novelty in this transcription, the hope is that further developments on the genetic algorithm will eventually outperform the current day pitch detection approaches to audio to midi conversion.</p>
 </div>
 <div class="section" id="problem-representation">
@@ -269,18 +269,72 @@ In the search for a more intelligent algorithm to convert from audio to midi a G
 <div class="section" id="generating-initial-population">
 <h1>Generating Initial Population<a class="headerlink" href="#generating-initial-population" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules</p>
-<img src="../../../../images/table_init.png" width="75%" align="center"/>
+<p>To begin the genetic algorithm, we dirst have to generate the initial population. We do so by creating some empirical rules:</p>
+<br>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Note Feature</p></th>
+<th class="head"><p>Method</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Pitch</p></td>
+<td><p>Normal Distribution, mean 60, std 5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Start Time</p></td>
+<td><p>Uniform Distribution, Low = 0 ; High = end_music_time</p></td>
+</tr>
+<tr class="row-even"><td><p>End Time</p></td>
+<td><p>Start time + length of note. Length of note sampled from Normal mean 0.2 sec; std 0.05 sec</p></td>
+</tr>
+<tr class="row-odd"><td><p>Velocity</p></td>
+<td><p>Constant: 98</p></td>
+</tr>
+<tr class="row-even"><td><p>Number of Notes</p></td>
+<td><p>Constant: 50</p></td>
+</tr>
+</tbody>
+</table>
+<!-- <img src="../../../../images/table_init.png" width="75%" align="center"/> -->
 </div>
 <div class="section" id="mutuations">
 <h1>Mutuations<a class="headerlink" href="#mutuations" title="Permalink to this headline">¶</a></h1>
-<p>The mutations were decided to be as follows</p>
-<img src="../../../../images/mutations.png" width="100%" align="center"/>
+<hr class="docutils" />
+<p>The mutations were decided to be as follows:</p>
+<br>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Mutation</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Mutation Length of Note</p></td>
+<td><p>Normal Distribution, mean 60, std 5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mutation Start Time of Note</p></td>
+<td><p>Uniform Distribution, Low = 0 ; High = end_music_time</p></td>
+</tr>
+<tr class="row-even"><td><p>Mutation Stop Time of Note</p></td>
+<td><p>Start time + length of note. Length of note sampled from Normal mean 0.5 sec; std 0.1 sec</p></td>
+</tr>
+<tr class="row-odd"><td><p>Add Random Note</p></td>
+<td><p>Constant: 98</p></td>
+</tr>
+<tr class="row-even"><td><p>Delete Random Note</p></td>
+<td><p>Normal Distribution, mean 60, std 5</p></td>
+</tr>
+</tbody>
+</table>
+<!-- 
+
+<img src="../../../../images/mutations.png" width="100%" align="center"/> -->
 </div>
 <div class="section" id="performance-curve">
 <h1>Performance Curve<a class="headerlink" href="#performance-curve" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
 <p>Finally our results can be summarized by the plot below</p>
-<img src="../../../../images/ga_performance.png" width="75%" align="center"/>
+<img src="../../../../images/ga_performance.png" width="90%" align="center"/>
 <p>And below is our best fitness individual and the original twinkle twinkle little star audio</p>
 <p><strong>Original</strong></p>
 <audio controls>
